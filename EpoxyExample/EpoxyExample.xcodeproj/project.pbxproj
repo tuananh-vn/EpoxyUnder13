@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819E30AAF51EE680FEB53F25 /* Pods_EpoxyExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C524F4CD4065DBFA25731D29 /* Pods_EpoxyExample.framework */; };
+		CCE402482644EB0D00797BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402472644EB0D00797BB9 /* AppDelegate.swift */; };
+		CCE4024C2644EB0D00797BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4024B2644EB0D00797BB9 /* ViewController.swift */; };
+		CCE4024F2644EB0D00797BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE4024D2644EB0D00797BB9 /* Main.storyboard */; };
+		CCE402542644EB0E00797BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE402522644EB0E00797BB9 /* LaunchScreen.storyboard */; };
+		CCE402AD2644EB7D00797BB9 /* VSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4025C2644EB7D00797BB9 /* VSBundle.swift */; };
+		CCE402AE2644EB7D00797BB9 /* FlowLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4025F2644EB7D00797BB9 /* FlowLayoutViewController.swift */; };
+		CCE402AF2644EB7D00797BB9 /* LocationBarItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402612644EB7D00797BB9 /* LocationBarItemModel.swift */; };
+		CCE402B02644EB7D00797BB9 /* LocationBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402622644EB7D00797BB9 /* LocationBarViewCell.swift */; };
+		CCE402B12644EB7D00797BB9 /* LocationBarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE402632644EB7D00797BB9 /* LocationBarViewCell.xib */; };
+		CCE402B22644EB7D00797BB9 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402642644EB7D00797BB9 /* ColorView.swift */; };
+		CCE402B32644EB7D00797BB9 /* HomeTopItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402662644EB7D00797BB9 /* HomeTopItemModel.swift */; };
+		CCE402B42644EB7D00797BB9 /* HomeTopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402672644EB7D00797BB9 /* HomeTopViewCell.swift */; };
+		CCE402B52644EB7D00797BB9 /* HomeTopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE402682644EB7D00797BB9 /* HomeTopViewCell.xib */; };
+		CCE402B62644EB7D00797BB9 /* HomeSectionRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4026A2644EB7D00797BB9 /* HomeSectionRemote.swift */; };
+		CCE402B72644EB7D00797BB9 /* HomeSectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4026B2644EB7D00797BB9 /* HomeSectionType.swift */; };
+		CCE402B82644EB7D00797BB9 /* HomeStickyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4026C2644EB7D00797BB9 /* HomeStickyLayout.swift */; };
+		CCE402B92644EB7D00797BB9 /* HomeCollectionItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4026D2644EB7D00797BB9 /* HomeCollectionItemSize.swift */; };
+		CCE402BA2644EB7D00797BB9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4026F2644EB7D00797BB9 /* Constant.swift */; };
+		CCE402BB2644EB7D00797BB9 /* ShippingSku.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402702644EB7D00797BB9 /* ShippingSku.swift */; };
+		CCE402BC2644EB7D00797BB9 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402712644EB7D00797BB9 /* NotificationName.swift */; };
+		CCE402BD2644EB7D00797BB9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402722644EB7D00797BB9 /* Fonts.swift */; };
+		CCE402BE2644EB7D00797BB9 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402732644EB7D00797BB9 /* Device.swift */; };
+		CCE402BF2644EB7D00797BB9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402742644EB7D00797BB9 /* Colors.swift */; };
+		CCE402C02644EB7D00797BB9 /* VSThemesCGColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402772644EB7D00797BB9 /* VSThemesCGColor.swift */; };
+		CCE402C12644EB7D00797BB9 /* VSThemesKeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402782644EB7D00797BB9 /* VSThemesKeyPath.swift */; };
+		CCE402C22644EB7D00797BB9 /* VSThemesColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402792644EB7D00797BB9 /* VSThemesColor.swift */; };
+		CCE402C32644EB7D00797BB9 /* VSThemesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4027A2644EB7D00797BB9 /* VSThemesManager.swift */; };
+		CCE402C42644EB7D00797BB9 /* Nemo_Theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCE4027C2644EB7D00797BB9 /* Nemo_Theme.plist */; };
+		CCE402C52644EB7D00797BB9 /* VCB_Theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCE4027D2644EB7D00797BB9 /* VCB_Theme.plist */; };
+		CCE402C62644EB7D00797BB9 /* VSThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4027E2644EB7D00797BB9 /* VSThemes.swift */; };
+		CCE402C72644EB7D00797BB9 /* VSThemesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4027F2644EB7D00797BB9 /* VSThemesImage.swift */; };
+		CCE402C82644EB7D00797BB9 /* ViewDecorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402802644EB7D00797BB9 /* ViewDecorable.swift */; };
+		CCE402C92644EB7D00797BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE402822644EB7D00797BB9 /* Assets.xcassets */; };
+		CCE402CA2644EB7D00797BB9 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE402832644EB7D00797BB9 /* Theme.xcassets */; };
+		CCE402CB2644EB7D00797BB9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE402842644EB7D00797BB9 /* Localizable.strings */; };
+		CCE402CC2644EB7D00797BB9 /* ThemeCGFloatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402872644EB7D00797BB9 /* ThemeCGFloatPicker.swift */; };
+		CCE402CD2644EB7D00797BB9 /* ThemeVisualEffectPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402882644EB7D00797BB9 /* ThemeVisualEffectPicker.swift */; };
+		CCE402CE2644EB7D00797BB9 /* ThemeStatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402892644EB7D00797BB9 /* ThemeStatePicker.swift */; };
+		CCE402CF2644EB7D00797BB9 /* UIRefreshControl+TitleAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4028A2644EB7D00797BB9 /* UIRefreshControl+TitleAttributes.swift */; };
+		CCE402D02644EB7D00797BB9 /* ThemeBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4028B2644EB7D00797BB9 /* ThemeBarStylePicker.swift */; };
+		CCE402D12644EB7D00797BB9 /* ThemeColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4028C2644EB7D00797BB9 /* ThemeColorPicker.swift */; };
+		CCE402D22644EB7D00797BB9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4028D2644EB7D00797BB9 /* UIColorExtension.swift */; };
+		CCE402D32644EB7D00797BB9 /* ThemeNavigationBarAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4028E2644EB7D00797BB9 /* ThemeNavigationBarAppearancePicker.swift */; };
+		CCE402D42644EB7D00797BB9 /* ThemeManager+OC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4028F2644EB7D00797BB9 /* ThemeManager+OC.swift */; };
+		CCE402D52644EB7D00797BB9 /* ThemeFontPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402902644EB7D00797BB9 /* ThemeFontPicker.swift */; };
+		CCE402D62644EB7D00797BB9 /* ThemeDictionaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402912644EB7D00797BB9 /* ThemeDictionaryPicker.swift */; };
+		CCE402D72644EB7D00797BB9 /* ThemeScrollViewIndicatorStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402922644EB7D00797BB9 /* ThemeScrollViewIndicatorStylePicker.swift */; };
+		CCE402D82644EB7D00797BB9 /* UITextField+PlaceholderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402932644EB7D00797BB9 /* UITextField+PlaceholderAttributes.swift */; };
+		CCE402D92644EB7D00797BB9 /* ThemeManager+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402942644EB7D00797BB9 /* ThemeManager+Index.swift */; };
+		CCE402DA2644EB7D00797BB9 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402952644EB7D00797BB9 /* ThemePicker.swift */; };
+		CCE402DB2644EB7D00797BB9 /* UILabel+TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402962644EB7D00797BB9 /* UILabel+TextAttributes.swift */; };
+		CCE402DC2644EB7D00797BB9 /* ThemeCGColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402972644EB7D00797BB9 /* ThemeCGColorPicker.swift */; };
+		CCE402DD2644EB7D00797BB9 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402982644EB7D00797BB9 /* ThemeManager.swift */; };
+		CCE402DE2644EB7D00797BB9 /* NSObject+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402992644EB7D00797BB9 /* NSObject+Theme.swift */; };
+		CCE402DF2644EB7D00797BB9 /* UIKit+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4029A2644EB7D00797BB9 /* UIKit+Theme.swift */; };
+		CCE402E02644EB7D00797BB9 /* ThemeKeyboardAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4029B2644EB7D00797BB9 /* ThemeKeyboardAppearancePicker.swift */; };
+		CCE402E12644EB7D00797BB9 /* ThemeManager+Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4029C2644EB7D00797BB9 /* ThemeManager+Plist.swift */; };
+		CCE402E22644EB7D00797BB9 /* ThemeStringAttributesPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4029D2644EB7D00797BB9 /* ThemeStringAttributesPicker.swift */; };
+		CCE402E32644EB7D00797BB9 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4029E2644EB7D00797BB9 /* ThemeActivityIndicatorViewStylePicker.swift */; };
+		CCE402E42644EB7D00797BB9 /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4029F2644EB7D00797BB9 /* ThemeImagePicker.swift */; };
+		CCE402E52644EB7D00797BB9 /* ThemeStatusBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A02644EB7D00797BB9 /* ThemeStatusBarStylePicker.swift */; };
+		CCE402E62644EB7D00797BB9 /* NSAttributedString+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A12644EB7D00797BB9 /* NSAttributedString+Merge.swift */; };
+		CCE402E72644EB7D00797BB9 /* ThemeBlurEffectPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A22644EB7D00797BB9 /* ThemeBlurEffectPicker.swift */; };
+		CCE402E82644EB7D00797BB9 /* BaseXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A52644EB7D00797BB9 /* BaseXibView.swift */; };
+		CCE402E92644EB7D00797BB9 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A72644EB7D00797BB9 /* StringExtensions.swift */; };
+		CCE402EA2644EB7D00797BB9 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A82644EB7D00797BB9 /* FoundationExtensions.swift */; };
+		CCE402EB2644EB7D00797BB9 /* UIView+GlobalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402A92644EB7D00797BB9 /* UIView+GlobalFrame.swift */; };
+		CCE402EC2644EB7D00797BB9 /* UIView+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402AA2644EB7D00797BB9 /* UIView+DropShadow.swift */; };
+		CCE402ED2644EB7D00797BB9 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402AB2644EB7D00797BB9 /* NSAttributedStringExtensions.swift */; };
+		CCE402EE2644EB7D00797BB9 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402AC2644EB7D00797BB9 /* UIColorExtensions.swift */; };
+		CCE403A62644EBA500797BB9 /* EpoxyCooked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE403A52644EBA500797BB9 /* EpoxyCooked.framework */; };
+		CCE403A72644EBA500797BB9 /* EpoxyCooked.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CCE403A52644EBA500797BB9 /* EpoxyCooked.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CCE403AF2644ED2500797BB9 /* EpoxyExampleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403AE2644ED2500797BB9 /* EpoxyExampleInterface.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCE403A82644EBA500797BB9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CCE403A72644EBA500797BB9 /* EpoxyCooked.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EFD982CC3A735B7536BC97F /* Pods-EpoxyExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpoxyExample.debug.xcconfig"; path = "Target Support Files/Pods-EpoxyExample/Pods-EpoxyExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B81157E8E6773B5E7381E869 /* Pods-EpoxyExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpoxyExample.release.xcconfig"; path = "Target Support Files/Pods-EpoxyExample/Pods-EpoxyExample.release.xcconfig"; sourceTree = "<group>"; };
+		C524F4CD4065DBFA25731D29 /* Pods_EpoxyExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpoxyExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE402442644EB0D00797BB9 /* EpoxyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpoxyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE402472644EB0D00797BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCE4024B2644EB0D00797BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCE4024E2644EB0D00797BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCE402532644EB0E00797BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCE402552644EB0E00797BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE4025C2644EB7D00797BB9 /* VSBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSBundle.swift; sourceTree = "<group>"; };
+		CCE4025F2644EB7D00797BB9 /* FlowLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayoutViewController.swift; sourceTree = "<group>"; };
+		CCE402612644EB7D00797BB9 /* LocationBarItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationBarItemModel.swift; sourceTree = "<group>"; };
+		CCE402622644EB7D00797BB9 /* LocationBarViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationBarViewCell.swift; sourceTree = "<group>"; };
+		CCE402632644EB7D00797BB9 /* LocationBarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationBarViewCell.xib; sourceTree = "<group>"; };
+		CCE402642644EB7D00797BB9 /* ColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		CCE402662644EB7D00797BB9 /* HomeTopItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTopItemModel.swift; sourceTree = "<group>"; };
+		CCE402672644EB7D00797BB9 /* HomeTopViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTopViewCell.swift; sourceTree = "<group>"; };
+		CCE402682644EB7D00797BB9 /* HomeTopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTopViewCell.xib; sourceTree = "<group>"; };
+		CCE4026A2644EB7D00797BB9 /* HomeSectionRemote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSectionRemote.swift; sourceTree = "<group>"; };
+		CCE4026B2644EB7D00797BB9 /* HomeSectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSectionType.swift; sourceTree = "<group>"; };
+		CCE4026C2644EB7D00797BB9 /* HomeStickyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStickyLayout.swift; sourceTree = "<group>"; };
+		CCE4026D2644EB7D00797BB9 /* HomeCollectionItemSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionItemSize.swift; sourceTree = "<group>"; };
+		CCE4026F2644EB7D00797BB9 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CCE402702644EB7D00797BB9 /* ShippingSku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingSku.swift; sourceTree = "<group>"; };
+		CCE402712644EB7D00797BB9 /* NotificationName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		CCE402722644EB7D00797BB9 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CCE402732644EB7D00797BB9 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		CCE402742644EB7D00797BB9 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CCE402772644EB7D00797BB9 /* VSThemesCGColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSThemesCGColor.swift; sourceTree = "<group>"; };
+		CCE402782644EB7D00797BB9 /* VSThemesKeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSThemesKeyPath.swift; sourceTree = "<group>"; };
+		CCE402792644EB7D00797BB9 /* VSThemesColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSThemesColor.swift; sourceTree = "<group>"; };
+		CCE4027A2644EB7D00797BB9 /* VSThemesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSThemesManager.swift; sourceTree = "<group>"; };
+		CCE4027C2644EB7D00797BB9 /* Nemo_Theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Nemo_Theme.plist; sourceTree = "<group>"; };
+		CCE4027D2644EB7D00797BB9 /* VCB_Theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VCB_Theme.plist; sourceTree = "<group>"; };
+		CCE4027E2644EB7D00797BB9 /* VSThemes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSThemes.swift; sourceTree = "<group>"; };
+		CCE4027F2644EB7D00797BB9 /* VSThemesImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSThemesImage.swift; sourceTree = "<group>"; };
+		CCE402802644EB7D00797BB9 /* ViewDecorable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDecorable.swift; sourceTree = "<group>"; };
+		CCE402822644EB7D00797BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCE402832644EB7D00797BB9 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		CCE402842644EB7D00797BB9 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CCE402872644EB7D00797BB9 /* ThemeCGFloatPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeCGFloatPicker.swift; sourceTree = "<group>"; };
+		CCE402882644EB7D00797BB9 /* ThemeVisualEffectPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeVisualEffectPicker.swift; sourceTree = "<group>"; };
+		CCE402892644EB7D00797BB9 /* ThemeStatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeStatePicker.swift; sourceTree = "<group>"; };
+		CCE4028A2644EB7D00797BB9 /* UIRefreshControl+TitleAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+TitleAttributes.swift"; sourceTree = "<group>"; };
+		CCE4028B2644EB7D00797BB9 /* ThemeBarStylePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeBarStylePicker.swift; sourceTree = "<group>"; };
+		CCE4028C2644EB7D00797BB9 /* ThemeColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColorPicker.swift; sourceTree = "<group>"; };
+		CCE4028D2644EB7D00797BB9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		CCE4028E2644EB7D00797BB9 /* ThemeNavigationBarAppearancePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeNavigationBarAppearancePicker.swift; sourceTree = "<group>"; };
+		CCE4028F2644EB7D00797BB9 /* ThemeManager+OC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThemeManager+OC.swift"; sourceTree = "<group>"; };
+		CCE402902644EB7D00797BB9 /* ThemeFontPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeFontPicker.swift; sourceTree = "<group>"; };
+		CCE402912644EB7D00797BB9 /* ThemeDictionaryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeDictionaryPicker.swift; sourceTree = "<group>"; };
+		CCE402922644EB7D00797BB9 /* ThemeScrollViewIndicatorStylePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeScrollViewIndicatorStylePicker.swift; sourceTree = "<group>"; };
+		CCE402932644EB7D00797BB9 /* UITextField+PlaceholderAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+PlaceholderAttributes.swift"; sourceTree = "<group>"; };
+		CCE402942644EB7D00797BB9 /* ThemeManager+Index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThemeManager+Index.swift"; sourceTree = "<group>"; };
+		CCE402952644EB7D00797BB9 /* ThemePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		CCE402962644EB7D00797BB9 /* UILabel+TextAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+TextAttributes.swift"; sourceTree = "<group>"; };
+		CCE402972644EB7D00797BB9 /* ThemeCGColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeCGColorPicker.swift; sourceTree = "<group>"; };
+		CCE402982644EB7D00797BB9 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		CCE402992644EB7D00797BB9 /* NSObject+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Theme.swift"; sourceTree = "<group>"; };
+		CCE4029A2644EB7D00797BB9 /* UIKit+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Theme.swift"; sourceTree = "<group>"; };
+		CCE4029B2644EB7D00797BB9 /* ThemeKeyboardAppearancePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearancePicker.swift; sourceTree = "<group>"; };
+		CCE4029C2644EB7D00797BB9 /* ThemeManager+Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThemeManager+Plist.swift"; sourceTree = "<group>"; };
+		CCE4029D2644EB7D00797BB9 /* ThemeStringAttributesPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeStringAttributesPicker.swift; sourceTree = "<group>"; };
+		CCE4029E2644EB7D00797BB9 /* ThemeActivityIndicatorViewStylePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeActivityIndicatorViewStylePicker.swift; sourceTree = "<group>"; };
+		CCE4029F2644EB7D00797BB9 /* ThemeImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeImagePicker.swift; sourceTree = "<group>"; };
+		CCE402A02644EB7D00797BB9 /* ThemeStatusBarStylePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeStatusBarStylePicker.swift; sourceTree = "<group>"; };
+		CCE402A12644EB7D00797BB9 /* NSAttributedString+Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Merge.swift"; sourceTree = "<group>"; };
+		CCE402A22644EB7D00797BB9 /* ThemeBlurEffectPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeBlurEffectPicker.swift; sourceTree = "<group>"; };
+		CCE402A52644EB7D00797BB9 /* BaseXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseXibView.swift; sourceTree = "<group>"; };
+		CCE402A72644EB7D00797BB9 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		CCE402A82644EB7D00797BB9 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		CCE402A92644EB7D00797BB9 /* UIView+GlobalFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+GlobalFrame.swift"; sourceTree = "<group>"; };
+		CCE402AA2644EB7D00797BB9 /* UIView+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+DropShadow.swift"; sourceTree = "<group>"; };
+		CCE402AB2644EB7D00797BB9 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		CCE402AC2644EB7D00797BB9 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		CCE403A52644EBA500797BB9 /* EpoxyCooked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EpoxyCooked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE403AE2644ED2500797BB9 /* EpoxyExampleInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpoxyExampleInterface.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE402412644EB0D00797BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE403A62644EBA500797BB9 /* EpoxyCooked.framework in Frameworks */,
+				819E30AAF51EE680FEB53F25 /* Pods_EpoxyExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172151B6C6BFEB54761ECEEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EFD982CC3A735B7536BC97F /* Pods-EpoxyExample.debug.xcconfig */,
+				B81157E8E6773B5E7381E869 /* Pods-EpoxyExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		CCE4023B2644EB0D00797BB9 = {
+			isa = PBXGroup;
+			children = (
+				CCE402462644EB0D00797BB9 /* EpoxyExample */,
+				CCE402452644EB0D00797BB9 /* Products */,
+				CCE403A42644EBA500797BB9 /* Frameworks */,
+				172151B6C6BFEB54761ECEEF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE402452644EB0D00797BB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402442644EB0D00797BB9 /* EpoxyExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE402462644EB0D00797BB9 /* EpoxyExample */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4026E2644EB7D00797BB9 /* Constants */,
+				CCE402A62644EB7D00797BB9 /* Extensions */,
+				CCE4025D2644EB7D00797BB9 /* HomePage */,
+				CCE402852644EB7D00797BB9 /* Libs */,
+				CCE402812644EB7D00797BB9 /* Resources */,
+				CCE402752644EB7D00797BB9 /* Utils */,
+				CCE402A32644EB7D00797BB9 /* View */,
+				CCE4025C2644EB7D00797BB9 /* VSBundle.swift */,
+				CCE402472644EB0D00797BB9 /* AppDelegate.swift */,
+				CCE4024B2644EB0D00797BB9 /* ViewController.swift */,
+				CCE4024D2644EB0D00797BB9 /* Main.storyboard */,
+				CCE402522644EB0E00797BB9 /* LaunchScreen.storyboard */,
+				CCE402552644EB0E00797BB9 /* Info.plist */,
+				CCE403AE2644ED2500797BB9 /* EpoxyExampleInterface.swift */,
+			);
+			path = EpoxyExample;
+			sourceTree = "<group>";
+		};
+		CCE4025D2644EB7D00797BB9 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4025E2644EB7D00797BB9 /* ViewModel */,
+				CCE402692644EB7D00797BB9 /* DataSource */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		CCE4025E2644EB7D00797BB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4025F2644EB7D00797BB9 /* FlowLayoutViewController.swift */,
+				CCE402602644EB7D00797BB9 /* LocationBar */,
+				CCE402642644EB7D00797BB9 /* ColorView.swift */,
+				CCE402652644EB7D00797BB9 /* HomeTopView */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCE402602644EB7D00797BB9 /* LocationBar */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402612644EB7D00797BB9 /* LocationBarItemModel.swift */,
+				CCE402622644EB7D00797BB9 /* LocationBarViewCell.swift */,
+				CCE402632644EB7D00797BB9 /* LocationBarViewCell.xib */,
+			);
+			path = LocationBar;
+			sourceTree = "<group>";
+		};
+		CCE402652644EB7D00797BB9 /* HomeTopView */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402662644EB7D00797BB9 /* HomeTopItemModel.swift */,
+				CCE402672644EB7D00797BB9 /* HomeTopViewCell.swift */,
+				CCE402682644EB7D00797BB9 /* HomeTopViewCell.xib */,
+			);
+			path = HomeTopView;
+			sourceTree = "<group>";
+		};
+		CCE402692644EB7D00797BB9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4026A2644EB7D00797BB9 /* HomeSectionRemote.swift */,
+				CCE4026B2644EB7D00797BB9 /* HomeSectionType.swift */,
+				CCE4026C2644EB7D00797BB9 /* HomeStickyLayout.swift */,
+				CCE4026D2644EB7D00797BB9 /* HomeCollectionItemSize.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		CCE4026E2644EB7D00797BB9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4026F2644EB7D00797BB9 /* Constant.swift */,
+				CCE402702644EB7D00797BB9 /* ShippingSku.swift */,
+				CCE402712644EB7D00797BB9 /* NotificationName.swift */,
+				CCE402722644EB7D00797BB9 /* Fonts.swift */,
+				CCE402732644EB7D00797BB9 /* Device.swift */,
+				CCE402742644EB7D00797BB9 /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CCE402752644EB7D00797BB9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402762644EB7D00797BB9 /* ThemeHelper */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CCE402762644EB7D00797BB9 /* ThemeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402772644EB7D00797BB9 /* VSThemesCGColor.swift */,
+				CCE402782644EB7D00797BB9 /* VSThemesKeyPath.swift */,
+				CCE402792644EB7D00797BB9 /* VSThemesColor.swift */,
+				CCE4027A2644EB7D00797BB9 /* VSThemesManager.swift */,
+				CCE4027B2644EB7D00797BB9 /* Themes */,
+				CCE4027E2644EB7D00797BB9 /* VSThemes.swift */,
+				CCE4027F2644EB7D00797BB9 /* VSThemesImage.swift */,
+				CCE402802644EB7D00797BB9 /* ViewDecorable.swift */,
+			);
+			path = ThemeHelper;
+			sourceTree = "<group>";
+		};
+		CCE4027B2644EB7D00797BB9 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				CCE4027C2644EB7D00797BB9 /* Nemo_Theme.plist */,
+				CCE4027D2644EB7D00797BB9 /* VCB_Theme.plist */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		CCE402812644EB7D00797BB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402822644EB7D00797BB9 /* Assets.xcassets */,
+				CCE402832644EB7D00797BB9 /* Theme.xcassets */,
+				CCE402842644EB7D00797BB9 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCE402852644EB7D00797BB9 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402862644EB7D00797BB9 /* SwiftTheme */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		CCE402862644EB7D00797BB9 /* SwiftTheme */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402872644EB7D00797BB9 /* ThemeCGFloatPicker.swift */,
+				CCE402882644EB7D00797BB9 /* ThemeVisualEffectPicker.swift */,
+				CCE402892644EB7D00797BB9 /* ThemeStatePicker.swift */,
+				CCE4028A2644EB7D00797BB9 /* UIRefreshControl+TitleAttributes.swift */,
+				CCE4028B2644EB7D00797BB9 /* ThemeBarStylePicker.swift */,
+				CCE4028C2644EB7D00797BB9 /* ThemeColorPicker.swift */,
+				CCE4028D2644EB7D00797BB9 /* UIColorExtension.swift */,
+				CCE4028E2644EB7D00797BB9 /* ThemeNavigationBarAppearancePicker.swift */,
+				CCE4028F2644EB7D00797BB9 /* ThemeManager+OC.swift */,
+				CCE402902644EB7D00797BB9 /* ThemeFontPicker.swift */,
+				CCE402912644EB7D00797BB9 /* ThemeDictionaryPicker.swift */,
+				CCE402922644EB7D00797BB9 /* ThemeScrollViewIndicatorStylePicker.swift */,
+				CCE402932644EB7D00797BB9 /* UITextField+PlaceholderAttributes.swift */,
+				CCE402942644EB7D00797BB9 /* ThemeManager+Index.swift */,
+				CCE402952644EB7D00797BB9 /* ThemePicker.swift */,
+				CCE402962644EB7D00797BB9 /* UILabel+TextAttributes.swift */,
+				CCE402972644EB7D00797BB9 /* ThemeCGColorPicker.swift */,
+				CCE402982644EB7D00797BB9 /* ThemeManager.swift */,
+				CCE402992644EB7D00797BB9 /* NSObject+Theme.swift */,
+				CCE4029A2644EB7D00797BB9 /* UIKit+Theme.swift */,
+				CCE4029B2644EB7D00797BB9 /* ThemeKeyboardAppearancePicker.swift */,
+				CCE4029C2644EB7D00797BB9 /* ThemeManager+Plist.swift */,
+				CCE4029D2644EB7D00797BB9 /* ThemeStringAttributesPicker.swift */,
+				CCE4029E2644EB7D00797BB9 /* ThemeActivityIndicatorViewStylePicker.swift */,
+				CCE4029F2644EB7D00797BB9 /* ThemeImagePicker.swift */,
+				CCE402A02644EB7D00797BB9 /* ThemeStatusBarStylePicker.swift */,
+				CCE402A12644EB7D00797BB9 /* NSAttributedString+Merge.swift */,
+				CCE402A22644EB7D00797BB9 /* ThemeBlurEffectPicker.swift */,
+			);
+			path = SwiftTheme;
+			sourceTree = "<group>";
+		};
+		CCE402A32644EB7D00797BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402A42644EB7D00797BB9 /* Base */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCE402A42644EB7D00797BB9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402A52644EB7D00797BB9 /* BaseXibView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CCE402A62644EB7D00797BB9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CCE402A72644EB7D00797BB9 /* StringExtensions.swift */,
+				CCE402A82644EB7D00797BB9 /* FoundationExtensions.swift */,
+				CCE402A92644EB7D00797BB9 /* UIView+GlobalFrame.swift */,
+				CCE402AA2644EB7D00797BB9 /* UIView+DropShadow.swift */,
+				CCE402AB2644EB7D00797BB9 /* NSAttributedStringExtensions.swift */,
+				CCE402AC2644EB7D00797BB9 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CCE403A42644EBA500797BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE403A52644EBA500797BB9 /* EpoxyCooked.framework */,
+				C524F4CD4065DBFA25731D29 /* Pods_EpoxyExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE402432644EB0D00797BB9 /* EpoxyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE402582644EB0E00797BB9 /* Build configuration list for PBXNativeTarget "EpoxyExample" */;
+			buildPhases = (
+				F9F136AF1F0EF28FCE6889E7 /* [CP] Check Pods Manifest.lock */,
+				CCE402402644EB0D00797BB9 /* Sources */,
+				CCE402412644EB0D00797BB9 /* Frameworks */,
+				CCE402422644EB0D00797BB9 /* Resources */,
+				CCE403A82644EBA500797BB9 /* Embed Frameworks */,
+				95B427B183DDFAF0A57459FE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpoxyExample;
+			productName = EpoxyExample;
+			productReference = CCE402442644EB0D00797BB9 /* EpoxyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE4023C2644EB0D00797BB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CCE402432644EB0D00797BB9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CCE4023F2644EB0D00797BB9 /* Build configuration list for PBXProject "EpoxyExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE4023B2644EB0D00797BB9;
+			productRefGroup = CCE402452644EB0D00797BB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE402432644EB0D00797BB9 /* EpoxyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE402422644EB0D00797BB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE402542644EB0E00797BB9 /* LaunchScreen.storyboard in Resources */,
+				CCE402B52644EB7D00797BB9 /* HomeTopViewCell.xib in Resources */,
+				CCE402B12644EB7D00797BB9 /* LocationBarViewCell.xib in Resources */,
+				CCE402C42644EB7D00797BB9 /* Nemo_Theme.plist in Resources */,
+				CCE402CB2644EB7D00797BB9 /* Localizable.strings in Resources */,
+				CCE402C52644EB7D00797BB9 /* VCB_Theme.plist in Resources */,
+				CCE402CA2644EB7D00797BB9 /* Theme.xcassets in Resources */,
+				CCE402C92644EB7D00797BB9 /* Assets.xcassets in Resources */,
+				CCE4024F2644EB0D00797BB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95B427B183DDFAF0A57459FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpoxyExample/Pods-EpoxyExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpoxyExample/Pods-EpoxyExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EpoxyExample/Pods-EpoxyExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F136AF1F0EF28FCE6889E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpoxyExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE402402644EB0D00797BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE402E02644EB7D00797BB9 /* ThemeKeyboardAppearancePicker.swift in Sources */,
+				CCE402B62644EB7D00797BB9 /* HomeSectionRemote.swift in Sources */,
+				CCE402BF2644EB7D00797BB9 /* Colors.swift in Sources */,
+				CCE402EE2644EB7D00797BB9 /* UIColorExtensions.swift in Sources */,
+				CCE402E22644EB7D00797BB9 /* ThemeStringAttributesPicker.swift in Sources */,
+				CCE402E72644EB7D00797BB9 /* ThemeBlurEffectPicker.swift in Sources */,
+				CCE402E82644EB7D00797BB9 /* BaseXibView.swift in Sources */,
+				CCE402BB2644EB7D00797BB9 /* ShippingSku.swift in Sources */,
+				CCE402E12644EB7D00797BB9 /* ThemeManager+Plist.swift in Sources */,
+				CCE402BC2644EB7D00797BB9 /* NotificationName.swift in Sources */,
+				CCE402CC2644EB7D00797BB9 /* ThemeCGFloatPicker.swift in Sources */,
+				CCE402C22644EB7D00797BB9 /* VSThemesColor.swift in Sources */,
+				CCE402B82644EB7D00797BB9 /* HomeStickyLayout.swift in Sources */,
+				CCE402BA2644EB7D00797BB9 /* Constant.swift in Sources */,
+				CCE402AD2644EB7D00797BB9 /* VSBundle.swift in Sources */,
+				CCE402EA2644EB7D00797BB9 /* FoundationExtensions.swift in Sources */,
+				CCE402DC2644EB7D00797BB9 /* ThemeCGColorPicker.swift in Sources */,
+				CCE402DA2644EB7D00797BB9 /* ThemePicker.swift in Sources */,
+				CCE402C82644EB7D00797BB9 /* ViewDecorable.swift in Sources */,
+				CCE402C12644EB7D00797BB9 /* VSThemesKeyPath.swift in Sources */,
+				CCE402E92644EB7D00797BB9 /* StringExtensions.swift in Sources */,
+				CCE402D02644EB7D00797BB9 /* ThemeBarStylePicker.swift in Sources */,
+				CCE402AF2644EB7D00797BB9 /* LocationBarItemModel.swift in Sources */,
+				CCE402AE2644EB7D00797BB9 /* FlowLayoutViewController.swift in Sources */,
+				CCE402B72644EB7D00797BB9 /* HomeSectionType.swift in Sources */,
+				CCE402DF2644EB7D00797BB9 /* UIKit+Theme.swift in Sources */,
+				CCE402B42644EB7D00797BB9 /* HomeTopViewCell.swift in Sources */,
+				CCE402EB2644EB7D00797BB9 /* UIView+GlobalFrame.swift in Sources */,
+				CCE402B32644EB7D00797BB9 /* HomeTopItemModel.swift in Sources */,
+				CCE402D22644EB7D00797BB9 /* UIColorExtension.swift in Sources */,
+				CCE402B92644EB7D00797BB9 /* HomeCollectionItemSize.swift in Sources */,
+				CCE4024C2644EB0D00797BB9 /* ViewController.swift in Sources */,
+				CCE402E62644EB7D00797BB9 /* NSAttributedString+Merge.swift in Sources */,
+				CCE402BE2644EB7D00797BB9 /* Device.swift in Sources */,
+				CCE402CE2644EB7D00797BB9 /* ThemeStatePicker.swift in Sources */,
+				CCE402B22644EB7D00797BB9 /* ColorView.swift in Sources */,
+				CCE402DE2644EB7D00797BB9 /* NSObject+Theme.swift in Sources */,
+				CCE402C62644EB7D00797BB9 /* VSThemes.swift in Sources */,
+				CCE402C32644EB7D00797BB9 /* VSThemesManager.swift in Sources */,
+				CCE402D32644EB7D00797BB9 /* ThemeNavigationBarAppearancePicker.swift in Sources */,
+				CCE402D92644EB7D00797BB9 /* ThemeManager+Index.swift in Sources */,
+				CCE402E32644EB7D00797BB9 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */,
+				CCE402CD2644EB7D00797BB9 /* ThemeVisualEffectPicker.swift in Sources */,
+				CCE402C72644EB7D00797BB9 /* VSThemesImage.swift in Sources */,
+				CCE402D72644EB7D00797BB9 /* ThemeScrollViewIndicatorStylePicker.swift in Sources */,
+				CCE402DD2644EB7D00797BB9 /* ThemeManager.swift in Sources */,
+				CCE402D12644EB7D00797BB9 /* ThemeColorPicker.swift in Sources */,
+				CCE402E52644EB7D00797BB9 /* ThemeStatusBarStylePicker.swift in Sources */,
+				CCE402B02644EB7D00797BB9 /* LocationBarViewCell.swift in Sources */,
+				CCE402E42644EB7D00797BB9 /* ThemeImagePicker.swift in Sources */,
+				CCE402CF2644EB7D00797BB9 /* UIRefreshControl+TitleAttributes.swift in Sources */,
+				CCE402D62644EB7D00797BB9 /* ThemeDictionaryPicker.swift in Sources */,
+				CCE402D52644EB7D00797BB9 /* ThemeFontPicker.swift in Sources */,
+				CCE402C02644EB7D00797BB9 /* VSThemesCGColor.swift in Sources */,
+				CCE403AF2644ED2500797BB9 /* EpoxyExampleInterface.swift in Sources */,
+				CCE402482644EB0D00797BB9 /* AppDelegate.swift in Sources */,
+				CCE402ED2644EB7D00797BB9 /* NSAttributedStringExtensions.swift in Sources */,
+				CCE402BD2644EB7D00797BB9 /* Fonts.swift in Sources */,
+				CCE402DB2644EB7D00797BB9 /* UILabel+TextAttributes.swift in Sources */,
+				CCE402EC2644EB7D00797BB9 /* UIView+DropShadow.swift in Sources */,
+				CCE402D82644EB7D00797BB9 /* UITextField+PlaceholderAttributes.swift in Sources */,
+				CCE402D42644EB7D00797BB9 /* ThemeManager+OC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCE4024D2644EB0D00797BB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE4024E2644EB0D00797BB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE402522644EB0E00797BB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE402532644EB0E00797BB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE402562644EB0E00797BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCE402572644EB0E00797BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE402592644EB0E00797BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFD982CC3A735B7536BC97F /* Pods-EpoxyExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpoxyExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.teko.EpoxyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCE4025A2644EB0E00797BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81157E8E6773B5E7381E869 /* Pods-EpoxyExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpoxyExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.teko.EpoxyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE4023F2644EB0D00797BB9 /* Build configuration list for PBXProject "EpoxyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE402562644EB0E00797BB9 /* Debug */,
+				CCE402572644EB0E00797BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE402582644EB0E00797BB9 /* Build configuration list for PBXNativeTarget "EpoxyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE402592644EB0E00797BB9 /* Debug */,
+				CCE4025A2644EB0E00797BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE4023C2644EB0D00797BB9 /* Project object */;
+}

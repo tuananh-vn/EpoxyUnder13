@@ -1,0 +1,6 @@
+framework module Pods_EpoxyCooked {
+  umbrella header "Pods-EpoxyCooked-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Global</key>
+	<dict>
+		<key>primary</key>
+		<string>#64AD1F</string>
+		<key>secondary</key>
+		<string>#4f49d9</string>
+		<key>uiPlaceholder</key>
+		<string>#b4b4b4</string>
+		<key>uiBorder</key>
+		<string>#e0e0e0</string>
+		<key>uiBg</key>
+		<string>#f6f6f6</string>
+		<key>statusWarning</key>
+		<string>#f78212</string>
+		<key>statusWarningBg</key>
+		<string>#fcf8e3</string>
+		<key>statusError</key>
+		<string>#eb2101</string>
+		<key>statusErrorBg</key>
+		<string>#fff2f2</string>
+		<key>statusSuccess</key>
+		<string>#53c305</string>
+		<key>statusSuccessBg</key>
+		<string>#f4fff2</string>
+		<key>statusDisable</key>
+		<string>#d2d2d2</string>
+		<key>statusPrimaryBg</key>
+		<string>#f4fff2</string>
+	</dict>
+	<key>Home</key>
+	<dict>
+		<key>primary</key>
+		<string>#227E1D</string>
+		<key>bgSearch</key>
+		<string>bg_gradient_vcb</string>
+	</dict>
+	<key>Product</key>
+	<dict>
+		<key>img_success</key>
+		<string>success_green</string>
+		<key>bgPromotion</key>
+		<string>bg_promotion_decoration_vcb</string>
+	</dict>
+	<key>Cart</key>
+	<dict>
+		<key>img_checked</key>
+		<string>ic_checkbox_vcb</string>
+		<key>promotion_background</key>
+		<string>cart_promotion_vcb</string>
+	</dict>
+</dict>
+</plist>

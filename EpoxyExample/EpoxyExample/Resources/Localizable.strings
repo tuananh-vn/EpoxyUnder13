@@ -1,0 +1,815 @@
+/*
+  Localizable.strings
+  VNShop
+
+  Created by linhvt on 9/11/19.
+  Copyright © 2019 Teko. All rights reserved.
+*/
+
+// Actions
+"delete" = "Xoá";
+"done" = "Xong";
+"continue" = "Tiếp tục";
+"view_more" = "Xem thêm";
+"collapse" = "Thu gọn";
+"cancel" = "Huỷ";
+"change" = "Thay đổi";
+"edit" = "Sửa";
+"close" = "Đóng";
+"accept" = "Đồng ý";
+
+"and" = "và";
+"in" = "Trong";
+"product_detail" = "Chi tiết sản phẩm";
+"product_description" = "Mô tả sản phẩm";
+"search" = "Tìm kiếm";
+"delete_history" = "Xoá lịch sử";
+"view_all_results" = "Xem tất cả kết quả";
+"view_all" = "Xem tất cả";
+"contact" = "Liên hệ";
+"toast_result" = "%d kết quả";
+"toast_result_more_than_300" = "300+ kết quả";
+"toast_result_more_than_9999" = "9999+ kết quả";
+"give" = "Tặng";
+"gift" = "Bạn sẽ nhận được";
+"give_gift" = "Tặng quà";
+"filter" = "Bộ lọc";
+"apply" = "Áp dụng";
+"reset" = "Thiết lập lại";
+"brand" = "Thương hiệu";
+"product_categories" = "Danh mục sản phẩm";
+"price_range" = "Khoảng giá (%@)";
+"n_k" = "%@K";
+"n_tr" = "%@tr";
+"no_network" = "Không có kết nối mạng!";
+
+//promotion
+"part_order_promotion" = "Khuyến mãi liên quan";
+"addition_promotion_with_coupon_n" = "Thêm ưu đãi với mã giảm giá (%d)";
+"product_detail_apply_part_order" = "Chỉ áp dụng trên một số sản phẩm nhất định\n";
+
+"products_in_combo" = "Sản phẩm trong Combo";
+"n_products" = "%d sản phẩm";
+"choose_1_in_%d_gifts" = "Chọn 1 trong %d phần quà";
+"choose_1_below" = "Chọn thêm 1 trong những khuyến mãi sau";
+"coupon_c_discount_n%_max_m" = "Coupon: Mã %@ giảm trực tiếp %d%% tối đa %@";
+"coupon_c_discount_n" = "Coupon: Mã %@ giảm trực tiếp %@";
+"gift_%@" = "Tặng quà %@";
+"voucher_value_n" = "Tặng voucher giảm %@ cho đơn hàng sau";
+"voucher_discount_n%_max_m" = "Tặng voucher giảm %d%% tối đa %@ cho đơn hàng sau";
+"discount_directly_n" = "Giảm trực tiếp %@";
+"discount_n%_max_m" = "Giảm trực tiếp %d%% tối đa %@";
+"pay_with" = "Thanh toán qua ";
+"pay" = "Thanh toán";
+"discount_n" = " giảm %@";
+"max_discount" = " tối đa ";
+"product_has_promotion" = "Sản phẩm có khuyến mãi";
+"enter_code" = "Nhập mã ";
+"enter_promotion_coupon_to_enjoy_endow" = "Nhập mã giảm giá để hưởng ưu đãi";
+
+"code" = "Mã";
+"directly_discount" = "giảm trực tiếp";
+"coupon" = "Coupon";
+"maximum" = "tối đa";
+"give_voucher" = "Tặng voucher";
+"give_n_voucher_v" = "Tặng %@ %@";
+"discount" = "giảm";
+"cost" = "trị giá";
+"applied_promotion" = "Đã áp dụng";
+"for_following_order" = " cho đơn hàng sau";
+
+"receiver_full_name" = "Họ tên người nhận";
+"receiver_phone" = "Số điện thoại người nhận";
+"receive_address" = "Địa chỉ nhận hàng";
+"specific_address_optional" = "Địa chỉ cụ thể (Số nhà, tên đường...)";
+"set_as_default_address" = "Đặt làm địa chỉ mặc định";
+"set_as_default" = "Đặt làm mặc định";
+"edit_address" = "Chỉnh sửa";
+"add_new" = "Thêm mới";
+"edit_current_address" = "Chỉnh sửa địa chỉ";
+
+"apply_now_one_coupon" = "ÁP DỤNG NGAY 1 MÃ GIẢM GIÁ";
+"buy_more_to_apply_coupon" = "MUA THÊM ĐỂ ÁP DỤNG MÃ";
+"max_nk" = "tối đa %@";
+"coupon_not_exist" = "Mã không tồn tại";
+"coupon_is_disabled" = "Mã đã bị vô hiệu hoá";
+"coupon_invalid_or_has_been_used" = "Mã không hợp lệ hoặc đã được sử dụng";
+"coupon_invalid_please_reenter" = "Mã không hợp lệ, vui lòng nhập lại";
+"coupon_invalid_cm" = "Mã không hợp lệ";
+"coupon_just_apply_for_order_from_n_to_n_please_recheck" = "Mã giảm giá %@ chỉ áp dụng cho đơn hàng có giá trị từ %@ đến %@. Vui lòng kiểm tra lại giá trị đơn hàng";
+"coupon_just_apply_for_order_from_n_please_recheck" = "Mã giảm giá %@ chỉ áp dụng cho đơn hàng có giá trị từ %@. Vui lòng kiểm tra lại giá trị đơn hàng";
+"coupon_just_apply_for_order_max_n_please_recheck" = "Mã giảm giá %@ chỉ áp dụng cho đơn hàng có giá trị tối đa %@. Vui lòng kiểm tra lại giá trị đơn hàng";
+"coupon_is_used" = "Mã đã được sử dụng";
+"coupon_out_of_budget" = "Mã đã hết số lượng sử dụng";
+"get_promotion_invalid_user" = "Đây là mã giảm giá riêng cho từng khách hàng, tài khoản của bạn không được áp dụng cho mã giảm giá %@";
+"get_promotion_coupon_budget_inactive" = "Mã đã bị vô hiệu hóa";
+"get_promotion_out_of_budget" = "Mã đã hết số lượng sử dụng";
+
+//promotion detail
+"program_name" = "Tên chương trình";
+"time_range" = "Thời gian áp dụng";
+"benefit" = "Quà khuyến mãi";
+
+/// Tabbar
+"cart" = "Giỏ hàng";
+"home" = "Trang chủ";
+"category" = "Danh mục";
+"notification" = "Thông báo";
+"account" = "Tài khoản";
+"over_quantity" = "Bạn đã chọn quá số lượng tối đa!";
+
+"pick_coupon" = "Chọn mã giảm giá";
+
+/// Create address
+"name_must_not_be_empty" = "Tên người nhận không được để trống";
+"create_address_failed_due_to_duplicated" = "Thất bại do số điện thoại đã có trên hệ thống";
+"create_address_failed_due_to_missing_contact_name" = "Thiếu field name trong contact";
+"create_address_failed_due_to_invalid_data" = "Định dạng dữ liệu không hợp lệ";
+"has_n_days_left" = "Còn %d ngày";
+"has_n_hours_left" = "Còn %d giờ";
+"from_date_to_date" = "Từ ngày %@ - %@";
+"from_date" = "Từ ngày %@";
+"until_date" = "Đến ngày %@";
+"from_date_to_date_without_from_date_string" = "%@ - %@";
+"list_products_in_combo_with_n" = "Danh sách sản phẩm trong combo (%d)";
+"province" = "Tỉnh/Thành phố";
+"district" = "Quận/Huyện";
+"ward" = "Phường/Xã";
+"provided_by_n" = "Cung cấp bởi %@";
+"enter_province" = "Nhập tên tỉnh/thành phố";
+"enter_district" = "Nhập tên quận/huyện";
+"enter_ward" = "Nhập tên phường/xã";
+"select_province" = "Chọn Tỉnh/Thành Phố";
+"select_district" = "Chọn Quận/Huyện";
+"select_ward" = "Chọn Phường/Xã";
+"input_address" = "Nhập số nhà";
+"delete_address_successfully" = "Xóa địa chỉ thành công";
+"delete_address_failed" = "Xóa địa chỉ không thành công";
+"cannot_create_more_address" = "Bạn chỉ có thể tạo tối đa 10 địa chỉ";
+
+/// Customer
+"add_address_successfully" = "Thêm địa chỉ thành công";
+"update_address_successfully" = "Cập nhật địa chỉ thành công";
+"add_address_failed" = "Thêm địa chỉ không thành công";
+"update_address_failed" = "Cập nhật địa chỉ không thành công";
+"cart_order_amount" = "Giá trị đơn hàng";
+"cart_discount_amount" = "Giảm giá";
+"cart_coupon" = "Mã giảm giá";
+"cart_delete_product" = "Xoá sản phẩm";
+"cart_delete_product_message" = "Bạn có chắc muốn bỏ sản phẩm này khỏi giỏ hàng";
+"toast_removed_product" = "Đã xoá sản phẩm";
+"toast_undo" = "Hoàn tác";
+"set_default_successfully" = "Đặt làm địa chỉ mặc định thành công";
+"set_default_failed" = "Đặt làm địa chỉ mặc định không thành công";
+
+/// Order Confirm
+"order_confirm_shipping_address" = "Địa chỉ nhận hàng";
+"order_confirm_delivery_method" = "Hình thức giao hàng";
+"order_confirm_product_list" = "Danh sách sản phẩm";
+"order_confirm_product_list" = "Danh sách sản phẩm";
+"order_confirm_note" = "Ghi chú cho nhà cung cấp";
+"order_confirm_export_bill" = "Xuất hoá đơn GTGT";
+"customer_not_found" = "Không tìm thấy thông tin khách hàng!";
+"seller_not_support_fast_delivery" = "Sản phẩm của %@ hiện tại chưa hỗ trợ giao hàng đến %@. Vui lòng kiểm tra lại.";
+"note_limit_length" = "Vui lòng không nhập quá 250 ký tự";
+"enter_content" = "Nhập nội dung";
+
+/// Navigation
+"order_list" = "Đơn hàng";
+"add_new_address" = "Thêm địa chỉ mới";
+"order_list" = "Quản lý đơn hàng";
+
+/// Order List
+"wait_to_pay" = "Chờ thanh toán";
+"wait_to_confirm" = "Chờ xác nhận";
+"delivering" = "Đang giao";
+"received" = "Đã nhận hàng";
+"returned" = "Đã hoàn";
+"cancelled" = "Đã huỷ";
+"all" = "Tất cả";
+"wait_to_payment" = "Chờ thanh toán";
+"wait_to_confirm" = "Chờ xác nhận";
+"wait_to_deliver" = "Chờ giao hàng";
+"delivered" = "Đã giao";
+"rejected" = "Đã huỷ";
+"completed" = "Đã hoàn thành";
+"waiting_for_return_approval" = "Chờ duyệt";
+"waiting_for_return_confirm" = "Chờ xác nhận";
+"shopping_now" = "Mua sắm ngay";
+"no_order_yet" = "Chưa có đơn hàng nào.";
+"n_vouchers_next_order" = "%dx Voucher giảm giá cho đơn hàng sau";
+"do_not_missing_this_order" = "Số lượng sản phẩm còn lại không nhiều, đừng bỏ lỡ đơn hàng này!";
+///order
+"choose_payment_method" = "Chọn hình thức thanh toán";
+"payment_method" = "Hình thức thanh toán";
+"order_payment_method" = "Phương thức thanh toán";
+"payment_info" = "Thông tin thanh toán";
+"payment_original_price" = "Tạm tính";
+"shipping_fee" = "Phí vận chuyển";
+"total_price" = "Tổng tiền";
+"paid_amount" = "Đã thanh toán";
+"remain_payment" = "Chưa thanh toán";
+"shipping_fee_item_name" = "Phí dịch vụ giao hàng tận nơi";
+"receiver_address" = "Địa chỉ người nhận";
+"shipping_method" = "Hình thức giao hàng";
+"order_product_list" = "Danh sách sản phẩm";
+"n_products" = "%d sản phẩm";
+"provided_by" = "Cung cấp bởi ";
+"order_code" = "Mã đơn: %@";
+"create_date" = "Ngày tạo %@";
+"order_self_destroy_after_n" = "Đơn hàng sẽ tự huỷ sau %d phút";
+"order_expired_at" = "Hết hạn vào %@";
+"payment_expired" = "Đã hết hạn thanh toán";
+"pay_now" = "Thanh toán ngay";
+"and_n_other_products" = "và %d sản phẩm khác";
+"no_note" = "Không có ghi chú";
+"cancel_order" = "Hủy đơn";
+"cancel_order_confirm" = "Bạn có chắc muốn huỷ đơn hàng này?";
+"confirm" = "Đồng ý";
+"cancel_unsuccessfully" = "Huỷ không thành công";
+"error_occurred_please_retry_later" = "Có lỗi xảy ra, không thể huỷ đơn. Vui lòng thử lại sau.";
+"order_failed" = "Đặt hàng không thành công";
+
+"estimated_time_at" = "Dự kiến giao hàng vào %@";
+
+"payment_info" = "Thông tin thanh toán";
+"payment_original_price_total" = "Tổng tạm tính";
+"payment_final_price" = "Thành tiền";
+
+"order_code_title" = "Đơn hàng %@";
+
+"estimated_time_at" = "Dự kiến giao hàng vào %@";
+
+"payment_cod" = "Thanh toán tiền mặt khi nhận hàng";
+"payment_debt" = "Thanh toán nợ";
+"payment_postpaid" = "Thanh toán trả sau";
+"payment_payment_portal" = "Qua Cổng thanh toán";
+"payment_payment_portal_installment_credit" = "Thanh toán qua Cổng thanh toán trả góp qua thẻ/hạn mức tín dụng";
+"payment_qr_code" = "Thanh toán quét mã";
+"payment_online" = "Thanh toán Online";
+"payment_installment" = "Thanh toán trả góp qua hợp đồng tín dụng";
+"payment_installment_credit" = "Thanh toán trả góp qua thẻ tín dụng";
+"payment_cash" = "Thanh toán tiền mặt";
+"payment_pos" = "Thanh toán quẹt thẻ trên máy POS";
+"payment_coupon" = "Thanh toán bằng phiếu mua hàng";
+"payment_mobile_banking" = "Thanh toán qua Mobile Banking với ";
+"payment_atm" = "Thanh toán qua thẻ ATM nội địa";
+"payment_world_card" = "Thanh toán thẻ Debit/Credit";
+
+"payment_cod_desc" = "Quý khách sẽ thanh toán bằng tiền mặt khi nhân viên VNShop giao hàng";
+"payment_mb_desc" = "Quý khách sẽ được chuyển sang ứng dụng Mobile Banking để thanh toán";
+"payment_qr_desc" = "Sử dụng ứng dụng hỗ trợ thanh toán với VNPAY-QR để quét mã và thanh toán";
+
+"order_code_n" = "Mã Đơn %@";
+
+/// Product sort criteria
+"default" = "Mặc định";
+"most_popular" = "Phổ biến nhất";
+"product_has_best_promotion" = "Sản phẩm có khuyến mãi tốt nhất";
+"product_has_promotion" = "Sản phẩm có khuyến mại";
+"price_low_to_high" = "Giá tiền thấp → cao";
+"price_high_to_low" = "Giá tiền cao → thấp";
+"newest" = "Mới nhất";
+
+"support_title" = "Vui lòng thử lại hoặc liên hệ bộ phận CSKH. Hotline: %@";
+
+// Shipping policy ( May be change in the future )
+"VNSHOP_shipping_policy" = "Phí vận chuyển: %@.";
+"free_ship_all" = "Miễn phí giao hàng toàn quốc.";
+"free_ship" = "Miễn phí giao hàng";
+"free_ship_from" = "Miễn phí vận chuyển cho đơn hàng từ %@.";
+"other_supplier_shipping_policy" = "Phí vận chuyển: %@. Miễn phí vận chuyển cho đơn hàng từ %@.";
+"maybe_you_care" = "Có thể bạn quan tâm";
+"product_best_selling" = "Sản phẩm bán chạy";
+
+"similar_products" = "Sản phẩm tương tự";
+"same_brand_products" = "Sản phẩm cùng thương hiệu";
+
+"toast_watch_cart" = "XEM GIỎ";
+"toast_added_to_cart" = "Đã thêm vào giỏ";
+
+// thumbnail url
+"m/n_products" = "%d/%d sản phẩm";
+
+// Addition Promotion Coupon
+"order_from_n_to_n" = "Áp dụng cho đơn hàng từ %@ - %@";
+"order_atleast_n" = "Áp dụng cho đơn hàng từ %@";
+"order_max_n" = "Áp dụng cho đơn hàng dưới %@";
+"apply_payment_via" = "Áp dụng thanh toán qua %@";
+"when_buy_more_n_products" = "Khi mua %d sản phẩm trở lên";
+"apply_for_all_order" = "Áp dụng cho tất cả các đơn hàng\n";
+"max_discount_n" = " (tối đa %@)";
+"coupon_expried" = "Mã giảm giá hết hạn";
+"your_coupon_has_expried" = "Mã giảm giá của bạn đã hết hạn sử dụng. Vui lòng sử dụng mã khác.";
+"promotion_common_error" = "Có lỗi xảy ra khi áp dụng mã. Vui lòng kiểm tra lại sau.";
+"common_error_from_cpl" = "Chưa đủ điều kiện hưởng khuyến mãi. Xin kiểm tra lại!";
+
+"n_products" = "%d sản phẩm";
+"free" = "Miễn phí";
+"standard_shipping" = "Giao hàng tiêu chuẩn";
+
+// Validate create address
+"invalid_name" = "Vui lòng nhập tên người nhận";
+"invalid_phone" = "Vui lòng nhập số điện thoại người nhận";
+"invalid_address" = "Vui lòng nhập địa chỉ người nhận";
+"invalid_phone_format" = "Số điện thoại không đúng định dạng";
+"input_coupon" = "Nhập mã giảm giá";
+
+"apply_discount_for" = "Giảm giá cho %@";
+"apply_discount_for_order" = "Giảm giá cho đơn hàng";
+"order" = "đơn hàng";
+"discount_money" = "Giảm %@";
+"voucher_value" = "Voucher %@";
+
+// Order promotions
+"promotion_for_order_from_to" = "Quà tặng cho đơn hàng từ %@ - %@";
+"promotion_for_order_from" = "Quà tặng cho đơn hàng từ %@";
+"promotion_for_order_below" = "Quà tặng cho đơn hàng dưới %@";
+"promotion_for_order" = "Quà tặng cho đơn hàng";
+
+"apply_coupon_succeeded" = "Áp dụng mã giảm giá thành công";
+"restore_coupon_failed" = "Hoàn tác thất bại";
+"remove_coupon_succeeded" = "Đã xoá mã giảm giá";
+
+"promotion_from_seller" = "Quà tặng từ %@";
+
+"string_parenthesis" = "(%@)";
+
+"over_max_quantity_message" = "Vượt quá số lượng tối đa";
+"HSD_s" = "HSD: %@";
+
+// Errors
+"something_wrong" = "Có lỗi xảy ra";
+"something_wrong_try_again" = "Có lỗi xảy ra, xin hãy thử lại";
+"invalid_seller_location" = "Đơn hàng có sản phẩm không giao hàng ở %@. Vui lòng kiểm tra lại sản phẩm của %@.";
+
+//account screen
+"order_management" = "Quản lý đơn hàng";
+"address_list" = "Sổ địa chỉ";
+"policy" = "Chính sách và điều khoản";
+"contact" = "Liên hệ";
+"setting" = "Cài đặt";
+"config" = "Config";
+"enable_loyalty" = "Bật Loyalty";
+"disable_loyalty" = "Tắt Loyalty";
+"you_have_n_wait_for_payment_orders" = "Bạn có %d đơn hàng đang chờ thanh toán";
+"error_invalid_phone" = "Số điện thoại chưa đúng! Hãy kiểm tra lại";
+"error_used_phone" = "Số điện thoại đã được sử dụng. Hãy kiểm tra lại!";
+"error_used_email" = "Email đã được sử dụng. Hãy kiểm tra lại!";
+"error_invalid_code" = "Mã xác thực chưa đúng! Hãy kiểm tra lại";
+"error_invalid_email" = "Email chưa đúng. Hãy kiểm tra lại";
+"error_invalid_auth" = "Thông tin đăng nhập chưa hợp lệ. Hãy kiểm tra lại";
+"update_dino_account" = "Nhập thông tin, tích điểm thưởng Dino ngay hôm nay";
+"n_orders_waiting_payment" = "%d đơn chờ thanh toán";
+
+// CheckoutFail
+"retry" = "Thử lại";
+"go_home" = "Về trang chủ";
+"go_to_order_list" = "Danh sách đơn hàng";
+
+// Payment error messages
+"payment_error_message_common" = "Có lỗi xảy ra trong quá trình thanh toán. Vui lòng thử lại hoặc liên hệ bộ phận CSKH.";
+"payment_error_message_processing" = "Đơn hàng đang trong quá trình xử lý giao dịch. Vui lòng thử lại sau vài phút hoặc liên hệ bộ phận CSKH.";
+"payment_error_message_payment_processed" = "Giao dịch thanh toán đã được xử lý. Xin vui lòng kiểm tra lại trạng thái đơn hàng hoặc liên hệ bộ phận CSKH.";
+"payment_error_message_balance_not_enough" = "Tài khoản của quý khách không đủ số dư để thực hiện giao dịch. Vui lòng thử lại hoặc liên hệ bộ phận CSKH.";
+"payment_error_message_payment_cancelled" = "Giao dịch thanh toán đã bị hủy. Vui lòng thử lại hoặc liên hệ bộ phận CSKH.";
+"payment_error_message_payment_method_not_supported" = "Phương thức thanh toán không khả dụng với sản phẩm trong đơn hàng. Vui lòng thử lại hoặc liên hệ bộ phận CSKH.";
+"payment_error_message_out_of_stock" = "Có sản phẩm đã hết hàng trong kho. Vui lòng thử lại hoặc liên hệ bộ phận CSKH.";
+//setting
+"setting_notification" = "Cho phép nhận thông báo";
+"logout" = "Đăng xuất";
+"logout_confirm" = "Bạn có chắc chắn muốn đăng xuất?";
+"yes" = "Có";
+"no" = "Không";
+"cancel" = "Hủy";
+"ok" = "OK";
+
+"no_note" = "Không có ghi chú";
+"cancel_order" = "Hủy đơn";
+"cancel_order_confirm" = "Bạn có chắc muốn huỷ đơn hàng này?";
+"confirm" = "Đồng ý";
+
+// QR guide
+"qr_payment_guide_first" = "Tải mã VNPayQR để lưu ảnh vào thư viện";
+"qr_payment_guide_second" = "Mở ứng dụng Mobile Banking và chọn quét mã QR";
+"qr_payment_guide_third" = "Chọn ảnh từ thư viện và tiến hành thanh toán";
+"mobile_banking_guide_0" = "Chọn mở ứng dụng Mobile Banking";
+"mobile_banking_guide_1" = "Thực hiện đăng nhập trên ứng dụng Mobile Banking của ngân hàng đã chọn";
+"mobile_banking_guide_2" = "Kiểm tra thông tin thanh toán và hoàn tất giao dịch";
+"qr_payment_guide_title" = "Sử dụng mã VNPayQR";
+"mb_payment_guide_title" = "Sử dụng ứng dụng Mobile banking";
+"recent_transaction" = "Giao dịch gần đây";
+
+"saved_image_to_library" = "Đã lưu ảnh vào thư viện";
+"mb_not_support" = "Ngân hàng này hiện không hỗ trợ quét mã QR";
+"open_setting_photo" = "Mở Cài đặt và cho phép VNShop truy cập thư viện ảnh của bạn";
+"invalid_qr_code" = "Mã QR không hợp lệ";
+"qr_payment_notification_title" = "Thanh toán qua mã QR";
+"qr_payment_notification_message" = "Vui lòng mở ứng dụng Vietcombank và chọn chức năng quét mã QR để thực hiện thanh toán";
+
+"select_address_to_receive" = "Chọn địa chỉ nhận hàng";
+"addresses_book" = "Sổ địa chỉ";
+"not_logged_in" = "Chưa đăng nhập";
+"shipping_address_not_set" = "Chưa chọn địa chỉ nhận hàng";
+"order_not_paid" = "Đơn hàng chưa được thanh toán, bạn có muốn tiếp tục?";
+"payment_later" = "Để sau";
+"continue_payment" = "Tiếp tục thanh toán";
+"support_banks" = "Ngân hàng hỗ trợ";
+"accrued_expenses" = "Số tiền cần thanh toán";
+"e_wallet" = "Ví điện tử";
+"i_understand" = "Tôi đã hiểu";
+// Payment error message
+"system_error_please_try_again_later" = "Có lỗi hệ thống, xin hãy thử lại sau";
+"payment_error_please_try_again" = "Có lỗi xảy ra khi xác nhận thanh toán, xin hãy thử lại";
+"payment_confirm_error" = "Có lỗi xảy ra khi xác nhận thanh toán";
+"something_wrong_try_again_later" = "Có lỗi xảy ra, xin hãy thử lại sau";
+"bank_app_not_installed" = "Ứng dụng %@ chưa được cài đặt trên thiết bị của bạn. Vui lòng cài đặt ứng dụng hoặc chọn một ngân hàng khác.";
+"bank_app_not_supported" = "Ứng dụng %@ hiện không hỗ trợ mở trực tiếp. Vui lòng chọn ngân hàng khác.";
+"mobile_banking_guide" = "Nếu ngân hàng của bạn không thuộc danh sách trên, vui lòng chọn";
+"payment_with_code" = "Thanh toán với mã";
+"alert_missing_address" = "Bạn chưa có địa chỉ nhận hàng";
+
+// Checkout errors
+"create_order_failed" = "Có lỗi xảy ra khi tạo đơn hàng";
+"card_payment_fail" = "Có lỗi xảy ra với hình thức thanh toán hiện tại";
+"payment_fail" = "Có lỗi xảy ra đối với hình thức thanh toán này. Vui lòng thử lại hoặc chọn hình thức thanh toán khác";
+"payment_attempt_exceed" = "Có lỗi xảy ra trong quá trình thanh toán. Xem lại đơn hàng trong danh sách \"Chờ thanh toán\"";
+
+// Authenticate errors
+"authenticate_error" = "Có lỗi khi xác thực, bạn vui lòng thử lại sau";
+
+
+"back_to_cart" = "Quay về giỏ hàng";
+"choose_other_payment_method" = "Chọn hình thức khác";
+"view_order" = "Xem đơn hàng";
+
+"name" = "Họ tên";
+"email" = "Email";
+"phone" = "Số điện thoại";
+"gender" = "Giới tính";
+"date_of_birth" = "Ngày sinh";
+"pick_gender" = "Chọn giới tính";
+"pick_date_of_birth" = "Chọn ngày sinh";
+"male" = "Nam";
+"female" = "Nữ";
+"other" = "Khác";
+
+"update_email" = "Cập nhật email";
+"update_phone" = "Cập nhật số điện thoại";
+"update_your_name" = "Cập nhật tên của bạn";
+"update_info_success" = "Cập nhật thông tin thành công";
+
+"complete" = "Hoàn tất";
+"name_is_empty" = "Vui lòng nhập tên của bạn";
+"email_is_empty" = "Vui lòng nhập email";
+"invalid_email" = "Email sai định dạng";
+"phone_is_empty" = "Vui lòng nhập số điện thoại";
+"input_your_name" = "Nhập tên của bạn";
+"input_your_email" = "Nhập email của bạn";
+"input_your_phone" = "Nhập số điện thoại";
+
+"add_to_cart" = "Thêm vào giỏ hàng";
+"out_of_stock_temporarily" = "Tạm hết hàng";
+"product_not_available" = "Sản phẩm không khả dụng";
+"product_%@_not_available" = "Sản phẩm %@ không khả dụng";
+
+//product status
+"product_status_showroom" = "Hàng trưng bày";
+"product_status_out_of_stock" = "Tạm hết hàng";
+"product_is_comming" = "Hàng sắp về";
+"product_status_suspend" = "Ngừng kinh doanh";
+"product_status_preorder" = "Hàng đặt trước";
+"product_status_running_out" = "Sắp hết";
+"product_status_new" = "Hàng mới về";
+
+// Product Category
+"highlight_category" = "Danh mục nổi bật";
+
+//notification
+"n_seconds_ago" = "%ds trước";
+"n_minutes_ago" = "%d' trước";
+"n_hours_ago" = "%dh trước";
+"you_have_no_notification" = "Bạn chưa có thông báo mới";
+"promotions" = "CHƯƠNG TRÌNH KHUYẾN MÃI";
+"notifications" = "THÔNG BÁO";
+
+// Category
+"featured_brands" = "Thương hiệu nổi bật";
+"top_promoted_product" = "Top khuyến mãi";
+"all_products" = "Tất cả sản phẩm";
+"search_in" = "Tìm trong %@";
+
+// Home
+"do_you_miss_something" = "Bạn có bỏ quên gì không?";
+"products_has_been_watched" = "Sản phẩm vừa xem";
+"continue_to_search" = "Tiếp tục tìm kiếm";
+"super_sales_in_week" = "Siêu sale trong tuần";
+"best_seller_in_month" = "Bán chạy trong tháng";
+"products_category" = "Danh mục sản phẩm";
+"top_brands" = "Thương hiệu hàng đầu";
+"best_seller_category" = "Danh mục bán chạy nhất";
+"only_for_you" = "Dành riêng cho bạn";
+"banner_url_invalid" = "URL không khả dụng";
+
+"history_keyword_results_count" = "%d+ kết quả";
+// Home flash sale
+"sold_n" = "Đã bán %d";
+"remain_n" = "Còn lại %d";
+"out_of_stock" = "Đã bán hết";
+"history_keyword_results_count" = "%d+ kết quả";
+"you_have_waiting_payment_order" = "Bạn có đơn hàng chờ thanh toán";
+"please_payment_within_30_minutes" = "Vui lòng thanh toán trong vòng 30 phút\nSau 30 phút đơn hàng sẽ tự động huỷ";
+"included_shipping_fee" = "Đã bao gồm phí giao hàng";
+"create_time" = "Thời gian tạo %@";
+"cancelled_because_expired_payment" = "Đã huỷ do hết hạn thanh toán";
+"golden_time" = "Giờ vàng giá sốc";
+
+// Application Config
+"update_app" = "Cập nhật ứng dụng";
+"url_app_store" = "itms-apps://itunes.apple.com/app/apple-store/%@?mt=8";
+"update_message" = "Ứng dụng vừa cập nhật phiên bản mới. Bạn vui lòng cập nhật ứng dụng để sử dụng những tính năng mới nhất";
+"force_update_message" = "Ứng dụng vừa cập nhật phiên bản mới. Bạn vui lòng cập nhật để tiếp tục sử dụng ứng dụng";
+
+// Cart
+"buy_n_reveive_m" = "Mua %d tặng %@";
+"action_not_success" = "Tác vụ không thành công!";
+"no_available_payment_methods" = "Không có phương thức thanh toán khả dụng!";
+
+"alert" = "Thông báo";
+"session_timeout" = "Phiên đăng nhập đã hết hiệu lực!";
+"cart_outdated" = "Đã có thay đổi trong giỏ hàng, đề nghị khách hàng kiểm tra lại";
+"cart_outdated_check_again" = "Sản phẩm bạn đang chọn mua đã thay đổi giá, vui lòng kiểm tra lại";
+
+// BannerHome
+"banner_home_product_list" = "Danh sách sản phẩm";
+
+
+
+"what_do_you_want_to_buy_today" = "Bạn muốn mua gì hôm nay…";
+"no_products_has_found" = "Không tìm thấy sản phẩm nào.";
+"popular_searches" = "Tìm kiếm phổ biến";
+"recent_searches" = "Tìm kiếm gần đây";
+"clear_history" = "Xóa lịch sử";
+"search_in_n" = "Tìm kiếm trong %@";
+
+// VNSI-1048
+"select_optional" = "Tùy chọn";
+"select_number" = "Chọn số lượng";
+"stamp_label" = "Nhãn";
+
+"login" = "Đăng nhập";
+"login_with_facebook" = "Tiếp tục với Facebook";
+"login_with_google" = "Tiếp tục với Google";
+"login_with_phone" = "Tiếp tục với Số điện thoại";
+"or" = "Hoặc";
+"no_account_label" = "Bạn chưa có tài khoản? Đăng ký tại đây";
+
+"enter_address" = "Nhập địa chỉ";
+"use_my_location" = "Sử dụng vị trí của tôi";
+"add_address" = "Thêm địa chỉ";
+"no_address_label" = "Bạn chưa có địa chỉ nào";
+"unavaiable_promotion_text" = "Không khả dụng với đơn hàng này";
+"sort" = "Sắp xếp";
+"view_cart_now" = "Xem giỏ hàng ngay";
+"added_product_to_cart" = "Đã thêm sản phẩm vào giỏ";
+"add_to_cart_failed" = "Thêm sản phẩm không thành công!.";
+
+// xuan.nt
+// OrderReconfirmSellerFooterView,OrderDetailSellerNoteFooterView
+"note_for_supplier" = "Ghi chú cho nhà cung cấp";
+// OrderReconfirmViewController,CartViewController
+"detail" = "Chi tiết";
+// OrderReconfirmViewController
+"checkout" = "Thanh toán";
+// CheckoutSuccessViewController
+"order_success" = "Đặt hàng thành công";
+"code_title_in_order_success" = "Mã đơn hàng";
+"time" = "Thời gian";
+"payment_method_title" = "Phương thức";
+"amount_of_money" = "Số tiền";
+"view_order_detail" = "Chi tiết đơn hàng";
+// MobileBankingViewController
+"search_bank_app" = "Tìm kiếm ứng dụng ngân hàng";
+// CardBankingPayment
+"search_bank" = "Tìm kiếm ngân hàng";
+// SelectPromotionViewController
+"get_more_promotion" = "Nhận thêm khuyến mãi";
+// QuotationCartView
+"quotation_detail" = "Báo giá chi tiết";
+// QuotationOverallViewCell,QuotationFooterTableView
+"temporary_shipping_fee" = "Phí vận chuyển (tạm tính)";
+// QuotationSellerHeaderView
+"supplier" = "Nhà cung cấp";
+// EmptyCartHeaderReusableView
+"no_item_in_cart" = "Không có sản phẩm nào trong giỏ hàng";
+"buy_now" = "Mua sắm ngay";
+// CartViewController
+"create_order" = "Đặt hàng";
+// OrderDetailGrandTotalFooterView,QuotationOverallViewCell
+"grand_total" = "Thành tiền";
+// OrderDetailGrandTotalFooterView
+"vat_included" = "(Đã bao gồm VAT)";
+// OrderDetailInfoViewCell
+"update_time_title" = "Cập nhật";
+// OrderDetailShortInfoViewCell,OrderDetailInfoViewCell
+"order_title" = "Đơn hàng";
+// OrderDetailCancelViewCell
+"cancel_order_button" = "Huỷ đơn hàng";
+// AccountViewController
+"register_or_login_button" = "Đăng ký / Đăng nhập";
+// SettingSwitchCell
+"allow_notification" = "Cho phép nhận thông báo";
+// SelectPromotionGuideTableViewCell
+"pick_one_of_the_promotions" = "Chọn 1 trong những khuyến mãi";
+
+// VNSI-1046
+"tax_out_code" = "Mã số thuế";
+"company_name" = "Tên công ty";
+"company_address" = "Địa chỉ công ty";
+
+"confirm_order" = "Xác nhận đặt hàng";
+
+"processing_order_title" = "Giao dịch đang chờ xử lý";
+
+// Product Detail
+"supplier_support_price_to" = "tiết kiệm %@";
+
+// QuotationCardView
+"supplier_support_price" = "Tiết kiệm";
+
+//QuotationCardView
+"total_supplier_price" = "Tổng tiền sản phẩm";
+
+// VNSI-1081
+"seller" = "Nhà bán";
+
+"continue_with_phone_number" = "Tiếp tục với số điện thoại";
+"continue_with_email" = "Tiếp tục với email";
+"content_text_login_phone_number" = "Sử dụng số điện thoại để đăng nhập tài khoản VNShop của bạn";
+
+"OTP_input_message_with_phone" = "Vui lòng nhập số OTP đã được gửi về số điện thoại %@ để thực hiện đăng nhập";
+"OTP_input_message_with_email" = "Vui lòng nhập số OTP đã được gửi về %@ để thực hiện đăng nhập";
+"OTP_input_message_with_update_phone" = "Vui lòng nhập số OTP đã được gửi về số điện thoại %@ để thực hiện cập nhật thông tin";
+"OTP_input_message_with_update_email" = "Vui lòng nhập số OTP đã được gửi về %@ để thực hiện cập nhật thông tin";
+"get_pin_again_after_n_sec" = "Nhận lại mã sau %ds";
+
+"invalid_OTP" = "OTP không chính xác!";
+"OTP_has_sent_again_successful" = "Đã gửi lại mã OTP";
+"OTP_has_sent_again_failed" = "Gửi lại mã OTP thất bại";
+"verify_OTP_failed" = "Xác nhận số điện thoại thất bại";
+// Billing info
+
+"enterprise_name" = "Tên doanh nghiệp";
+"enterprise_email" = "Email nhận hóa đơn";
+"tax_number" = "Mã số thuế";
+"enterprise_address" = "Địa chỉ doanh nghiệp";
+
+"notice_invalid_enterprise_name" = "Vui lòng nhập tên doanh nghiệp.";
+"notice_invalid_enterprise_email_empty" = "Vui lòng nhập email nhận hóa đơn.";
+"notice_invalid_enterprise_email" = "Định dạng email không hợp lệ.";
+"notice_invalid_tax_number" = "Vui lòng nhập mã số thuế.";
+"notice_invalid_enterprise_address" = "Vui lòng nhập địa chỉ doanh nghiệp.";
+
+"developed_by_vnpay" = "Phát triển bởi VNPAY © 2019";
+
+"alert_content_products_out_of_stock" = "Sản phẩm không còn đủ hàng trong kho:\n%@";
+
+"shipping_fee_is" = "Phí giao hàng: %@";
+"only_in_stock_at" = "Sản phẩm này chỉ còn hàng tại";
+
+// Processing checkout
+"contact_help" = "Liên hệ trợ giúp";
+
+// Order confirm: select payment method
+"order_confirm_payment_method" = "Phương thức thanh toán";
+"select_payment_method" = "Chọn phương thức thanh toán";
+"alert_missing_payment_method" = "Bạn chưa chọn phương thức thanh toán";
+"select" = "Chọn";
+"payment_option_mobile_banking" = "Thanh toán qua ứng dụng %@";
+"payment_option_mobile_banking_desc" = "Quý khách sẽ được chuyển sang ứng dụng của ngân hàng %@ để thanh toán";
+"payment_option_atm" = "Thanh toán qua thẻ ATM %@";
+"payment_option_atm_desc" = "Quý khách sẽ dùng thẻ ATM của ngân hàng %@ để thanh toán";
+"payment_option_world_card" = "Thanh toán %@";
+"payment_option_world_card_desc" = "Quý khách sẽ dùng %@ để thanh toán";
+
+// Search product
+"remain_n_products" = "Còn lại %d sản phẩm";
+
+// Landing Page
+"hot_discount_coupon" = "Mã giảm giá cực hot";
+"landing_page" = "Landing Page";
+
+// Track order processing;
+"track_order" = "Theo dõi đơn hàng";
+"created_order" = "Đã tạo mới";
+"confirmed_order" = "Đã xác nhận đơn hàng";
+"waiting_for_product" = "Đang đợi đủ hàng";
+"waiting_for_picking" = "Chờ soạn hàng";
+"picking" = "Đang soạn hàng";
+"waiting_for_transferring_lo" = "Chờ bàn giao vận chuyển";
+"delivering" = "Đang giao hàng";
+"delivered" = "Đã giao thành công";
+"cancelled" = "Đã huỷ";
+
+// PPM error: checkout: create order
+"order_promotion_invalid_price" = "Trong giỏ hàng có sản phẩm đã được cập nhật lại giá, vui lòng kiểm tra lại!";
+"flash_sale_out_of_stock" = "Số lượng sản phẩm Flash Sale còn lại không đủ so với số sản phẩm bạn đã thêm vào Giỏ hàng, vui lòng kiểm tra lại!";
+"order_promotion_flash_sale_inactive" = "Trong các sản phẩm đã chọn có sản phẩm Flash Sale đã hết hạn hoặc đã tạm dừng. Vui lòng kiểm tra lại!";
+"order_promotion_promotion_inactive" = "Trong các sản phẩm đã chọn có sản phẩm được khuyến mại nhưng CTKM đã kết thúc hoặc đã tạm dừng. Vui lòng kiểm tra lại!";
+"coupon_used_or_out_of_budget" = "Mã giảm giá đã được sử dụng hoặc đã vượt quá ngân sách được áp dụng. Vui lòng kiểm tra lại!";
+"get_promotion_coupon_not_exist" = "Mã giảm giá không tồn tại, vui lòng kiểm tra lại!";
+"get_promotion_coupon_inactive"  = "Mã giảm giá không còn hiệu lực, vui lòng kiểm tra lại!";
+"get_promotion_coupon_invalid_or_has_been_used"  = "Mã giảm giá không còn hiệu lực hoặc đã được sử dụng, vui lòng kiểm tra lại!";
+"budget_out_of_budget"  = "Trong giỏ hàng có sản phẩm áp dụng khuyến mại đã hết ngân sách. Vui lòng kiểm tra lại!";
+"budget_out_of_budget_item"  = "Trong các sản phẩm đã chọn có quà tặng nhưng số lượng quà đã hết. Vui lòng kiểm tra lại!";
+"budget_out_of_budget_money"  = "Trong các sản phẩm đã chọn có sản phẩm được giảm tiền nhưng đã hết ngân sách. Vui lòng kiểm tra lại!";
+"budget_inactive"  = "CTKM đã hết hoặc không còn hiệu lực, vui lòng kiểm tra lại các sản phẩm có CTKM trong giỏ hàng!";
+"order_promotion_coupon_used"  = "Mã giảm giá đã được sử dụng. Vui lòng kiểm tra lại trong giỏ hàng!";
+"order_promotion_invalid_promotion_payment_method"  = "Khuyến mại không áp dụng với phương thức thanh toán này. Vui lòng chọn lại phương thức thanh toán khác!";
+"order_promotion_invalid_promotion_sku"  = "Khuyến mại không khả dụng với sản phẩm bạn đã chọn. Vui lòng kiểm tra lại!";
+"order_promotion_out_of_budget_item"  = "Trong các sản phẩm đã chọn có quà tặng nhưng số lượng quà đã hết. Vui lòng kiểm tra lại!";
+"order_promotion_out_of_budget_money"  = "Trong các sản phẩm đã chọn có sản phẩm được giảm tiền nhưng đã hết ngân sách. Vui lòng kiểm tra lại!";
+"voucher_remain_voucher_not_enough" = "Trong giỏ hàng có sản phẩm được tặng voucher nhưng số lượng voucher đã hết. Vui lòng kiểm tra lại!";
+"coupon_not_activated"  = "Mã giảm giá hiện tại đang không có hiệu lực. Vui lòng kiểm tra lại!";
+"coupon_out_of_stock"  = "Mã giảm giá hiện tại đã hết số lượng sử dụng. Vui lòng thử lại với mã giảm giá khác!";
+// Listing
+"add_to_cart_button_title" = "Thêm vào giỏ";
+
+// Support ticket
+"order_with_code" = "Đơn hàng %@";
+"content_is_empty" = "Vui lòng nhập nội dung phản ánh";
+"ticket_type" = "Loại yêu cầu";
+"feedback_content" = "Nội dung phản ánh";
+"feedback_content_placeholder" = "Bạn đang gặp vấn đề gì?";
+"add_photo" = "Thêm hình ảnh";
+"request_support_successfully" = "Gửi yêu cầu hỗ trợ thành công";
+"update_support_successfully" = "Cập nhật yêu cầu hỗ trợ thành công";
+// Shipping Location
+"select_shipping_location" = "Lựa chọn khu vực giao hàng";
+"you_can_change_location_in_home_page" = "Bạn có thể chọn lại khu vực giao hàng tại Trang chủ của ứng dụng";
+"delivery_to" = "Giao hàng tại %@";
+"delivery_nationwide" = "Giao hàng Toàn quốc";
+"alert_not_match_shipping_location" = "Địa chỉ nhận hàng không nằm trong khu vực được chọn. Xin hãy trở lại màn Home để kiểm tra khu vực đã chọn trước đó.";
+"alert_cart_will_be_cleared" = "Giỏ hàng sẽ bị xóa khi thay đổi khu vực";
+"alert_change_location" = "Địa chỉ nhận hàng không nằm trong khu vực đã chọn, vui lòng chọn lại khu vực muốn đặt hàng";
+
+"video_duration_exceed" = "Thời lượng video không được vượt quá %@ giây. Vui lòng chọn lại video khác";
+"update_ticket" = "Cập nhật yêu cầu";
+"create_ticket" = "Gửi yêu cầu hỗ trợ";
+"history_ticket" = "Lịch sử hỗ trợ";
+"status" = "Trạng thái";
+"processing" = "Đang xử lý";
+"using_dino" = "Sử dụng điểm thành viên Dino";
+"remove_product_@" = "Xoá sản phẩm: %@";
+"remove_coupon_@" = "Xoá mã giảm giá: %@";
+"discount_@" = "Giảm %@";
+
+// Loyalty
+"loyalty_point_spend_hint" = "Nhập số lượng Dino";
+"your_loyalty_point" = "Dino của bạn:";
+"loyalty_point_rate" = "(1 Dino = %@ VNĐ)";
+"use_all_loyalty_points" = "Sử dụng tất cả";
+"use_loyalty_point_title" = "Sử dụng điểm thành viên Dino";
+"use_loyalty_point_button_title" = "Sử dụng";
+"dino_policy_agreement" = "Bằng việc hoàn tất cập nhật thông tin tài khoản, tôi đồng ý với Chính sách và điều khoản của hệ thống tích điểm thành viên Dino.";
+"dino_update_info" = "Cập nhật thông tin cá nhân";
+"please_input_name" = "Vui lòng nhập họ tên";
+"please_input_phone" = "Vui lòng nhập số điện thoại";
+"please_input_birthday" = "Vui lòng nhập ngày sinh";
+"please_select_province" = "Vui lòng chọn tỉnh/thành phố";
+"please_select_district" = "Vui lòng chọn quận huyện";
+"please_select_ward" = "Vui lòng chọn phường xã";
+"please_input_address" = "Vui lòng nhập số nhà";
+"update_membership_success" = "Cập nhật thông tin tài khoản thành công";
+"update_membership_fail" = "Cập nhật thông tin tài khoản thất bại";
+"update_membership_to_receive" = "Cập nhật thông tin tài khoản để tích ngay";
+"for_this_order" = "cho đơn hàng này";
+"you_will_get_x_from_order" = "Bạn sẽ nhận được %@ từ đơn hàng";
+"get_x_after_delivering_success" = "Nhận được %@ khi nhận hàng thành công";
+"my_dino" = "Điểm thành viên Dino";
+"let_update_profile_info_to_receive_points" = "Cập nhật thông tin tài khoản để được tích điểm thành viên Dino";
+"dino_loyalty_point" = "điểm thành viên Dino";
+"update_rightnow" = "Cập nhật ngay";
+
+// Checkout Result
+"continue_shopping" = "Tiếp tục mua sắm";
+"not_enough_dino_point_please_retry_it" = "Số dư Dino không đủ.";
+"not_completed_transaction" = "Giao dịch chưa hoàn tất";
+"not_pay_yet_for_order_please_retry_it" = "Quý khách chưa thanh toán cho đơn hàng. Vui lòng thử lại.";
+"suspicious_transaction_please_contact_hotline" = "Giao dịch đang bị nghi vấn. Vui lòng liên hệ hotline để được hỗ trợ.";
+
+ //Mobile Banking Apps
+"supported_banks" = "Ngân hàng hỗ trợ";
+"supported_wallets" = "Ví điện tử hỗ trợ";
+"international_card" = "Thẻ quốc tế";
+"wallet" = "Ví điện tử";
+
+// Detail Quotation
+"total_discount" = "Tổng giảm giá";
+
+// Coupons Selection
+"n_providers" = "%@ nhà cung cấp";
+"all" = "Tất cả";
+
+//order detail
+"order_not_found" = "Không tìm thấy đơn hàng";
