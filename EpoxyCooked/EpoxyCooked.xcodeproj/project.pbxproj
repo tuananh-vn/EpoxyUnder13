@@ -10,83 +10,74 @@
 		775E6F87E2FBEE2E24B9A279 /* Pods_EpoxyCooked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA0414D2DF407EFD40AC0AF /* Pods_EpoxyCooked.framework */; };
 		CCE402342644EAE800797BB9 /* EpoxyCooked.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE402322644EAE800797BB9 /* EpoxyCooked.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCE403562644EB9400797BB9 /* BaseItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402F32644EB9300797BB9 /* BaseItemModel.swift */; };
-		CCE403572644EB9400797BB9 /* CollectionViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402F62644EB9300797BB9 /* CollectionViewConfiguration.swift */; };
-		CCE403582644EB9400797BB9 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402F72644EB9300797BB9 /* CollectionView.swift */; };
-		CCE403592644EB9400797BB9 /* CollectionViewVisibilityMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402F82644EB9300797BB9 /* CollectionViewVisibilityMetadata.swift */; };
-		CCE4035A2644EB9400797BB9 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402FA2644EB9300797BB9 /* CollectionViewDataSource.swift */; };
-		CCE4035B2644EB9400797BB9 /* ReuseIDStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402FB2644EB9300797BB9 /* ReuseIDStore.swift */; };
-		CCE4035C2644EB9400797BB9 /* CollectionViewDataSourceReorderingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402FC2644EB9300797BB9 /* CollectionViewDataSourceReorderingDelegate.swift */; };
-		CCE4035D2644EB9400797BB9 /* CollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402FD2644EB9300797BB9 /* CollectionViewData.swift */; };
-		CCE4035E2644EB9400797BB9 /* CollectionViewChangeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402FE2644EB9300797BB9 /* CollectionViewChangeset.swift */; };
-		CCE4035F2644EB9400797BB9 /* CollectionViewScrollToItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE402FF2644EB9300797BB9 /* CollectionViewScrollToItemHelper.swift */; };
-		CCE403602644EB9400797BB9 /* ItemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403002644EB9300797BB9 /* ItemPath.swift */; };
-		CCE403612644EB9400797BB9 /* CollectionViewDisplayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403022644EB9300797BB9 /* CollectionViewDisplayDelegate.swift */; };
-		CCE403622644EB9400797BB9 /* CollectionViewAccessibilityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403032644EB9300797BB9 /* CollectionViewAccessibilityDelegate.swift */; };
-		CCE403632644EB9400797BB9 /* CollectionViewReorderingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403042644EB9300797BB9 /* CollectionViewReorderingDelegate.swift */; };
-		CCE403642644EB9400797BB9 /* CollectionViewTransitionLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403052644EB9300797BB9 /* CollectionViewTransitionLayoutDelegate.swift */; };
-		CCE403652644EB9400797BB9 /* CollectionViewPrefetchingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403062644EB9300797BB9 /* CollectionViewPrefetchingDelegate.swift */; };
-		CCE403662644EB9400797BB9 /* CollectionViewCellAccessibilityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403092644EB9300797BB9 /* CollectionViewCellAccessibilityDelegate.swift */; };
-		CCE403672644EB9400797BB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4030A2644EB9300797BB9 /* CollectionViewCell.swift */; };
-		CCE403682644EB9400797BB9 /* CollectionViewReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4030B2644EB9300797BB9 /* CollectionViewReusableView.swift */; };
-		CCE403692644EB9400797BB9 /* ItemSelectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4030C2644EB9300797BB9 /* ItemSelectionStyle.swift */; };
-		CCE4036A2644EB9400797BB9 /* ItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4030D2644EB9300797BB9 /* ItemCellView.swift */; };
-		CCE4036B2644EB9400797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4030E2644EB9300797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift */; };
-		CCE4036C2644EB9400797BB9 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403112644EB9300797BB9 /* SectionModel.swift */; };
-		CCE4036D2644EB9400797BB9 /* SectionModel+ReuseIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403122644EB9300797BB9 /* SectionModel+ReuseIDs.swift */; };
-		CCE4036E2644EB9400797BB9 /* IsMoveableProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403142644EB9300797BB9 /* IsMoveableProviding.swift */; };
-		CCE4036F2644EB9400797BB9 /* ItemsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403152644EB9300797BB9 /* ItemsProviding.swift */; };
-		CCE403702644EB9400797BB9 /* SupplementaryItemsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403162644EB9300797BB9 /* SupplementaryItemsProviding.swift */; };
-		CCE403712644EB9400797BB9 /* DidChangeStateProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403172644EB9300797BB9 /* DidChangeStateProviding.swift */; };
-		CCE403722644EB9400797BB9 /* SelectionStyleProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403182644EB9300797BB9 /* SelectionStyleProviding.swift */; };
-		CCE403732644EB9400797BB9 /* EpoxyableView+ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4031A2644EB9300797BB9 /* EpoxyableView+ItemModel.swift */; };
-		CCE403742644EB9400797BB9 /* AnyItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4031B2644EB9300797BB9 /* AnyItemModel.swift */; };
-		CCE403752644EB9400797BB9 /* ItemCellMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4031C2644EB9300797BB9 /* ItemCellMetadata.swift */; };
-		CCE403762644EB9400797BB9 /* ItemCellState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4031D2644EB9300797BB9 /* ItemCellState.swift */; };
-		CCE403772644EB9400797BB9 /* ItemModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4031E2644EB9300797BB9 /* ItemModeling.swift */; };
-		CCE403782644EB9400797BB9 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4031F2644EB9300797BB9 /* ItemModel.swift */; };
-		CCE403792644EB9400797BB9 /* AnySupplementaryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403212644EB9300797BB9 /* AnySupplementaryItemModel.swift */; };
-		CCE4037A2644EB9400797BB9 /* SupplementaryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403222644EB9300797BB9 /* SupplementaryItemModel.swift */; };
-		CCE4037B2644EB9400797BB9 /* SupplementaryItemModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403232644EB9300797BB9 /* SupplementaryItemModeling.swift */; };
-		CCE4037C2644EB9400797BB9 /* EpoxyableModel+SupplementaryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403242644EB9300797BB9 /* EpoxyableModel+SupplementaryItemModel.swift */; };
-		CCE4037D2644EB9400797BB9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403262644EB9300797BB9 /* CollectionViewController.swift */; };
-		CCE4037E2644EB9400797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403292644EB9300797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift */; };
-		CCE4037F2644EB9400797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4032A2644EB9300797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift */; };
-		CCE403802644EB9400797BB9 /* AccessibilityCustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4032C2644EB9300797BB9 /* AccessibilityCustomizedView.swift */; };
-		CCE403812644EB9400797BB9 /* HighlightableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4032D2644EB9300797BB9 /* HighlightableView.swift */; };
-		CCE403822644EB9400797BB9 /* DisplayRespondingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4032E2644EB9300797BB9 /* DisplayRespondingView.swift */; };
-		CCE403832644EB9400797BB9 /* EphemeralCachedStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4032F2644EB9300797BB9 /* EphemeralCachedStateView.swift */; };
-		CCE403842644EB9400797BB9 /* SelectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403302644EB9400797BB9 /* SelectableView.swift */; };
-		CCE403852644EB9400797BB9 /* IndexChangeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403332644EB9400797BB9 /* IndexChangeset.swift */; };
-		CCE403862644EB9400797BB9 /* SectionedChangeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403342644EB9400797BB9 /* SectionedChangeset.swift */; };
-		CCE403872644EB9400797BB9 /* Collection+Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403352644EB9400797BB9 /* Collection+Diff.swift */; };
-		CCE403882644EB9400797BB9 /* DiffableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403362644EB9400797BB9 /* DiffableSection.swift */; };
-		CCE403892644EB9400797BB9 /* Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403372644EB9400797BB9 /* Diffable.swift */; };
-		CCE4038A2644EB9400797BB9 /* EpoxyModelStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403392644EB9400797BB9 /* EpoxyModelStorage.swift */; };
-		CCE4038B2644EB9400797BB9 /* CallbackContextEpoxyModeled.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4033A2644EB9400797BB9 /* CallbackContextEpoxyModeled.swift */; };
-		CCE4038C2644EB9400797BB9 /* ViewDifferentiatorProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4033C2644EB9400797BB9 /* ViewDifferentiatorProviding.swift */; };
-		CCE4038D2644EB9400797BB9 /* SetContentProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4033D2644EB9400797BB9 /* SetContentProviding.swift */; };
-		CCE4038E2644EB9400797BB9 /* DidSelectProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4033E2644EB9400797BB9 /* DidSelectProviding.swift */; };
-		CCE4038F2644EB9400797BB9 /* DidEndDisplayingProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4033F2644EB9400797BB9 /* DidEndDisplayingProviding.swift */; };
-		CCE403902644EB9400797BB9 /* WillDisplayProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403402644EB9400797BB9 /* WillDisplayProviding.swift */; };
-		CCE403912644EB9400797BB9 /* ErasedContentProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403412644EB9400797BB9 /* ErasedContentProviding.swift */; };
-		CCE403922644EB9400797BB9 /* MakeViewProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403422644EB9400797BB9 /* MakeViewProviding.swift */; };
-		CCE403932644EB9400797BB9 /* TraitCollectionProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403432644EB9400797BB9 /* TraitCollectionProviding.swift */; };
-		CCE403942644EB9400797BB9 /* ViewProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403442644EB9400797BB9 /* ViewProviding.swift */; };
-		CCE403952644EB9400797BB9 /* SetBehaviorsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403452644EB9400797BB9 /* SetBehaviorsProviding.swift */; };
-		CCE403962644EB9400797BB9 /* StyleIDProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403462644EB9400797BB9 /* StyleIDProviding.swift */; };
-		CCE403972644EB9400797BB9 /* DidDisplayProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403472644EB9400797BB9 /* DidDisplayProviding.swift */; };
-		CCE403982644EB9400797BB9 /* AnimatedProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403482644EB9400797BB9 /* AnimatedProviding.swift */; };
-		CCE403992644EB9400797BB9 /* DataIDProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403492644EB9400797BB9 /* DataIDProviding.swift */; };
-		CCE4039A2644EB9400797BB9 /* ViewEpoxyModeled.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4034A2644EB9400797BB9 /* ViewEpoxyModeled.swift */; };
-		CCE4039B2644EB9400797BB9 /* AnyEpoxyModelProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4034C2644EB9400797BB9 /* AnyEpoxyModelProperty.swift */; };
-		CCE4039C2644EB9400797BB9 /* EpoxyModelProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4034D2644EB9400797BB9 /* EpoxyModelProperty.swift */; };
-		CCE4039D2644EB9400797BB9 /* EpoxyModeled.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4034E2644EB9400797BB9 /* EpoxyModeled.swift */; };
-		CCE4039E2644EB9400797BB9 /* StyledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403502644EB9400797BB9 /* StyledView.swift */; };
-		CCE4039F2644EB9400797BB9 /* ContentConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403512644EB9400797BB9 /* ContentConfigurableView.swift */; };
-		CCE403A02644EB9400797BB9 /* EpoxyableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403522644EB9400797BB9 /* EpoxyableView.swift */; };
-		CCE403A12644EB9400797BB9 /* BehaviorsConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403532644EB9400797BB9 /* BehaviorsConfigurableView.swift */; };
-		CCE403A22644EB9400797BB9 /* EpoxyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE403552644EB9400797BB9 /* EpoxyLogger.swift */; };
+		CCE4048626451F4700797BB9 /* EpoxyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE4048526451F4700797BB9 /* EpoxyCore.framework */; };
+		CCE4048726451F4700797BB9 /* EpoxyCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CCE4048526451F4700797BB9 /* EpoxyCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CCE4048A26451F8300797BB9 /* EpoxyCookedInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4048926451F8300797BB9 /* EpoxyCookedInterface.swift */; };
+		CCE404DC2645230600797BB9 /* CollectionViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4049C2645230500797BB9 /* CollectionViewConfiguration.swift */; };
+		CCE404DD2645230600797BB9 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4049D2645230500797BB9 /* CollectionView.swift */; };
+		CCE404DE2645230600797BB9 /* CollectionViewVisibilityMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE4049E2645230500797BB9 /* CollectionViewVisibilityMetadata.swift */; };
+		CCE404DF2645230600797BB9 /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A02645230500797BB9 /* CollectionViewDataSource.swift */; };
+		CCE404E02645230600797BB9 /* ReuseIDStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A12645230500797BB9 /* ReuseIDStore.swift */; };
+		CCE404E12645230600797BB9 /* CollectionViewDataSourceReorderingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A22645230500797BB9 /* CollectionViewDataSourceReorderingDelegate.swift */; };
+		CCE404E22645230600797BB9 /* CollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A32645230500797BB9 /* CollectionViewData.swift */; };
+		CCE404E32645230600797BB9 /* CollectionViewChangeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A42645230500797BB9 /* CollectionViewChangeset.swift */; };
+		CCE404E42645230600797BB9 /* CollectionViewScrollToItemHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A52645230500797BB9 /* CollectionViewScrollToItemHelper.swift */; };
+		CCE404E52645230600797BB9 /* ItemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A62645230500797BB9 /* ItemPath.swift */; };
+		CCE404E62645230600797BB9 /* CollectionViewDisplayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A82645230500797BB9 /* CollectionViewDisplayDelegate.swift */; };
+		CCE404E72645230600797BB9 /* CollectionViewAccessibilityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404A92645230500797BB9 /* CollectionViewAccessibilityDelegate.swift */; };
+		CCE404E82645230600797BB9 /* CollectionViewReorderingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404AA2645230500797BB9 /* CollectionViewReorderingDelegate.swift */; };
+		CCE404E92645230600797BB9 /* CollectionViewTransitionLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404AB2645230500797BB9 /* CollectionViewTransitionLayoutDelegate.swift */; };
+		CCE404EA2645230600797BB9 /* CollectionViewPrefetchingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404AC2645230500797BB9 /* CollectionViewPrefetchingDelegate.swift */; };
+		CCE404EB2645230600797BB9 /* CollectionViewCellAccessibilityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404AF2645230500797BB9 /* CollectionViewCellAccessibilityDelegate.swift */; };
+		CCE404EC2645230600797BB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B02645230500797BB9 /* CollectionViewCell.swift */; };
+		CCE404ED2645230600797BB9 /* CollectionViewReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B12645230500797BB9 /* CollectionViewReusableView.swift */; };
+		CCE404EE2645230600797BB9 /* ItemSelectionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B22645230500797BB9 /* ItemSelectionStyle.swift */; };
+		CCE404EF2645230600797BB9 /* ItemCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B32645230500797BB9 /* ItemCellView.swift */; };
+		CCE404F02645230600797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B42645230500797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift */; };
+		CCE404F12645230600797BB9 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B72645230500797BB9 /* SectionModel.swift */; };
+		CCE404F22645230600797BB9 /* SectionModel+ReuseIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B82645230500797BB9 /* SectionModel+ReuseIDs.swift */; };
+		CCE404F32645230600797BB9 /* SectionModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404B92645230500797BB9 /* SectionModelBuilder.swift */; };
+		CCE404F42645230600797BB9 /* IsMoveableProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404BB2645230500797BB9 /* IsMoveableProviding.swift */; };
+		CCE404F52645230600797BB9 /* ItemsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404BC2645230500797BB9 /* ItemsProviding.swift */; };
+		CCE404F62645230600797BB9 /* SupplementaryItemsProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404BD2645230500797BB9 /* SupplementaryItemsProviding.swift */; };
+		CCE404F72645230600797BB9 /* DidChangeStateProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404BE2645230500797BB9 /* DidChangeStateProviding.swift */; };
+		CCE404F82645230600797BB9 /* SelectionStyleProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404BF2645230600797BB9 /* SelectionStyleProviding.swift */; };
+		CCE404F92645230600797BB9 /* EpoxyableView+ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C12645230600797BB9 /* EpoxyableView+ItemModel.swift */; };
+		CCE404FA2645230600797BB9 /* AnyItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C22645230600797BB9 /* AnyItemModel.swift */; };
+		CCE404FB2645230600797BB9 /* ItemCellMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C32645230600797BB9 /* ItemCellMetadata.swift */; };
+		CCE404FC2645230600797BB9 /* ItemCellState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C42645230600797BB9 /* ItemCellState.swift */; };
+		CCE404FD2645230600797BB9 /* ItemModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C52645230600797BB9 /* ItemModeling.swift */; };
+		CCE404FE2645230600797BB9 /* ItemModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C62645230600797BB9 /* ItemModelBuilder.swift */; };
+		CCE404FF2645230600797BB9 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C72645230600797BB9 /* ItemModel.swift */; };
+		CCE405002645230600797BB9 /* AnySupplementaryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404C92645230600797BB9 /* AnySupplementaryItemModel.swift */; };
+		CCE405012645230600797BB9 /* SupplementaryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404CA2645230600797BB9 /* SupplementaryItemModel.swift */; };
+		CCE405022645230600797BB9 /* SupplementaryItemModeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404CB2645230600797BB9 /* SupplementaryItemModeling.swift */; };
+		CCE405032645230600797BB9 /* EpoxyableModel+SupplementaryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404CC2645230600797BB9 /* EpoxyableModel+SupplementaryItemModel.swift */; };
+		CCE405042645230600797BB9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404CE2645230600797BB9 /* CollectionViewController.swift */; };
+		CCE405052645230600797BB9 /* SectionModel+CompositionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D12645230600797BB9 /* SectionModel+CompositionalLayout.swift */; };
+		CCE405062645230600797BB9 /* UICollectionViewCompositionalLayout+Epoxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D22645230600797BB9 /* UICollectionViewCompositionalLayout+Epoxy.swift */; };
+		CCE405072645230600797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D42645230600797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift */; };
+		CCE405082645230600797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D52645230600797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift */; };
+		CCE405092645230600797BB9 /* AccessibilityCustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D72645230600797BB9 /* AccessibilityCustomizedView.swift */; };
+		CCE4050A2645230600797BB9 /* HighlightableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D82645230600797BB9 /* HighlightableView.swift */; };
+		CCE4050B2645230600797BB9 /* DisplayRespondingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404D92645230600797BB9 /* DisplayRespondingView.swift */; };
+		CCE4050C2645230600797BB9 /* EphemeralCachedStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404DA2645230600797BB9 /* EphemeralCachedStateView.swift */; };
+		CCE4050D2645230600797BB9 /* SelectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE404DB2645230600797BB9 /* SelectableView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCE4048826451F4700797BB9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CCE4048726451F4700797BB9 /* EpoxyCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7EE56EAFAECC2FBCBAABFF7A /* Pods-EpoxyCooked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpoxyCooked.release.xcconfig"; path = "Target Support Files/Pods-EpoxyCooked/Pods-EpoxyCooked.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,82 +86,58 @@
 		CCE402322644EAE800797BB9 /* EpoxyCooked.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpoxyCooked.h; sourceTree = "<group>"; };
 		CCE402332644EAE800797BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCE402F32644EB9300797BB9 /* BaseItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseItemModel.swift; sourceTree = "<group>"; };
-		CCE402F62644EB9300797BB9 /* CollectionViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewConfiguration.swift; sourceTree = "<group>"; };
-		CCE402F72644EB9300797BB9 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
-		CCE402F82644EB9300797BB9 /* CollectionViewVisibilityMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewVisibilityMetadata.swift; sourceTree = "<group>"; };
-		CCE402FA2644EB9300797BB9 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
-		CCE402FB2644EB9300797BB9 /* ReuseIDStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIDStore.swift; sourceTree = "<group>"; };
-		CCE402FC2644EB9300797BB9 /* CollectionViewDataSourceReorderingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSourceReorderingDelegate.swift; sourceTree = "<group>"; };
-		CCE402FD2644EB9300797BB9 /* CollectionViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewData.swift; sourceTree = "<group>"; };
-		CCE402FE2644EB9300797BB9 /* CollectionViewChangeset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewChangeset.swift; sourceTree = "<group>"; };
-		CCE402FF2644EB9300797BB9 /* CollectionViewScrollToItemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewScrollToItemHelper.swift; sourceTree = "<group>"; };
-		CCE403002644EB9300797BB9 /* ItemPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPath.swift; sourceTree = "<group>"; };
-		CCE403022644EB9300797BB9 /* CollectionViewDisplayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDisplayDelegate.swift; sourceTree = "<group>"; };
-		CCE403032644EB9300797BB9 /* CollectionViewAccessibilityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewAccessibilityDelegate.swift; sourceTree = "<group>"; };
-		CCE403042644EB9300797BB9 /* CollectionViewReorderingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewReorderingDelegate.swift; sourceTree = "<group>"; };
-		CCE403052644EB9300797BB9 /* CollectionViewTransitionLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTransitionLayoutDelegate.swift; sourceTree = "<group>"; };
-		CCE403062644EB9300797BB9 /* CollectionViewPrefetchingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPrefetchingDelegate.swift; sourceTree = "<group>"; };
-		CCE403092644EB9300797BB9 /* CollectionViewCellAccessibilityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellAccessibilityDelegate.swift; sourceTree = "<group>"; };
-		CCE4030A2644EB9300797BB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		CCE4030B2644EB9300797BB9 /* CollectionViewReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewReusableView.swift; sourceTree = "<group>"; };
-		CCE4030C2644EB9300797BB9 /* ItemSelectionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSelectionStyle.swift; sourceTree = "<group>"; };
-		CCE4030D2644EB9300797BB9 /* ItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellView.swift; sourceTree = "<group>"; };
-		CCE4030E2644EB9300797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FittingPrioritiesProvidingLayoutAttributes.swift; sourceTree = "<group>"; };
-		CCE403112644EB9300797BB9 /* SectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
-		CCE403122644EB9300797BB9 /* SectionModel+ReuseIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SectionModel+ReuseIDs.swift"; sourceTree = "<group>"; };
-		CCE403142644EB9300797BB9 /* IsMoveableProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsMoveableProviding.swift; sourceTree = "<group>"; };
-		CCE403152644EB9300797BB9 /* ItemsProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsProviding.swift; sourceTree = "<group>"; };
-		CCE403162644EB9300797BB9 /* SupplementaryItemsProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryItemsProviding.swift; sourceTree = "<group>"; };
-		CCE403172644EB9300797BB9 /* DidChangeStateProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidChangeStateProviding.swift; sourceTree = "<group>"; };
-		CCE403182644EB9300797BB9 /* SelectionStyleProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionStyleProviding.swift; sourceTree = "<group>"; };
-		CCE4031A2644EB9300797BB9 /* EpoxyableView+ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpoxyableView+ItemModel.swift"; sourceTree = "<group>"; };
-		CCE4031B2644EB9300797BB9 /* AnyItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyItemModel.swift; sourceTree = "<group>"; };
-		CCE4031C2644EB9300797BB9 /* ItemCellMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellMetadata.swift; sourceTree = "<group>"; };
-		CCE4031D2644EB9300797BB9 /* ItemCellState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellState.swift; sourceTree = "<group>"; };
-		CCE4031E2644EB9300797BB9 /* ItemModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModeling.swift; sourceTree = "<group>"; };
-		CCE4031F2644EB9300797BB9 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
-		CCE403212644EB9300797BB9 /* AnySupplementaryItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySupplementaryItemModel.swift; sourceTree = "<group>"; };
-		CCE403222644EB9300797BB9 /* SupplementaryItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryItemModel.swift; sourceTree = "<group>"; };
-		CCE403232644EB9300797BB9 /* SupplementaryItemModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryItemModeling.swift; sourceTree = "<group>"; };
-		CCE403242644EB9300797BB9 /* EpoxyableModel+SupplementaryItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpoxyableModel+SupplementaryItemModel.swift"; sourceTree = "<group>"; };
-		CCE403262644EB9300797BB9 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		CCE403292644EB9300797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+UICollectionViewFlowLayoutDelegate.swift"; sourceTree = "<group>"; };
-		CCE4032A2644EB9300797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpoxyModeled+UICollectionViewFlowLayout.swift"; sourceTree = "<group>"; };
-		CCE4032C2644EB9300797BB9 /* AccessibilityCustomizedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityCustomizedView.swift; sourceTree = "<group>"; };
-		CCE4032D2644EB9300797BB9 /* HighlightableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightableView.swift; sourceTree = "<group>"; };
-		CCE4032E2644EB9300797BB9 /* DisplayRespondingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayRespondingView.swift; sourceTree = "<group>"; };
-		CCE4032F2644EB9300797BB9 /* EphemeralCachedStateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EphemeralCachedStateView.swift; sourceTree = "<group>"; };
-		CCE403302644EB9400797BB9 /* SelectableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableView.swift; sourceTree = "<group>"; };
-		CCE403332644EB9400797BB9 /* IndexChangeset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexChangeset.swift; sourceTree = "<group>"; };
-		CCE403342644EB9400797BB9 /* SectionedChangeset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionedChangeset.swift; sourceTree = "<group>"; };
-		CCE403352644EB9400797BB9 /* Collection+Diff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Diff.swift"; sourceTree = "<group>"; };
-		CCE403362644EB9400797BB9 /* DiffableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiffableSection.swift; sourceTree = "<group>"; };
-		CCE403372644EB9400797BB9 /* Diffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diffable.swift; sourceTree = "<group>"; };
-		CCE403392644EB9400797BB9 /* EpoxyModelStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpoxyModelStorage.swift; sourceTree = "<group>"; };
-		CCE4033A2644EB9400797BB9 /* CallbackContextEpoxyModeled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallbackContextEpoxyModeled.swift; sourceTree = "<group>"; };
-		CCE4033C2644EB9400797BB9 /* ViewDifferentiatorProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDifferentiatorProviding.swift; sourceTree = "<group>"; };
-		CCE4033D2644EB9400797BB9 /* SetContentProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetContentProviding.swift; sourceTree = "<group>"; };
-		CCE4033E2644EB9400797BB9 /* DidSelectProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidSelectProviding.swift; sourceTree = "<group>"; };
-		CCE4033F2644EB9400797BB9 /* DidEndDisplayingProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidEndDisplayingProviding.swift; sourceTree = "<group>"; };
-		CCE403402644EB9400797BB9 /* WillDisplayProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillDisplayProviding.swift; sourceTree = "<group>"; };
-		CCE403412644EB9400797BB9 /* ErasedContentProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErasedContentProviding.swift; sourceTree = "<group>"; };
-		CCE403422644EB9400797BB9 /* MakeViewProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeViewProviding.swift; sourceTree = "<group>"; };
-		CCE403432644EB9400797BB9 /* TraitCollectionProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitCollectionProviding.swift; sourceTree = "<group>"; };
-		CCE403442644EB9400797BB9 /* ViewProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProviding.swift; sourceTree = "<group>"; };
-		CCE403452644EB9400797BB9 /* SetBehaviorsProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetBehaviorsProviding.swift; sourceTree = "<group>"; };
-		CCE403462644EB9400797BB9 /* StyleIDProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleIDProviding.swift; sourceTree = "<group>"; };
-		CCE403472644EB9400797BB9 /* DidDisplayProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidDisplayProviding.swift; sourceTree = "<group>"; };
-		CCE403482644EB9400797BB9 /* AnimatedProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedProviding.swift; sourceTree = "<group>"; };
-		CCE403492644EB9400797BB9 /* DataIDProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataIDProviding.swift; sourceTree = "<group>"; };
-		CCE4034A2644EB9400797BB9 /* ViewEpoxyModeled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEpoxyModeled.swift; sourceTree = "<group>"; };
-		CCE4034C2644EB9400797BB9 /* AnyEpoxyModelProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEpoxyModelProperty.swift; sourceTree = "<group>"; };
-		CCE4034D2644EB9400797BB9 /* EpoxyModelProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpoxyModelProperty.swift; sourceTree = "<group>"; };
-		CCE4034E2644EB9400797BB9 /* EpoxyModeled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpoxyModeled.swift; sourceTree = "<group>"; };
-		CCE403502644EB9400797BB9 /* StyledView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledView.swift; sourceTree = "<group>"; };
-		CCE403512644EB9400797BB9 /* ContentConfigurableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentConfigurableView.swift; sourceTree = "<group>"; };
-		CCE403522644EB9400797BB9 /* EpoxyableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpoxyableView.swift; sourceTree = "<group>"; };
-		CCE403532644EB9400797BB9 /* BehaviorsConfigurableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorsConfigurableView.swift; sourceTree = "<group>"; };
-		CCE403552644EB9400797BB9 /* EpoxyLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpoxyLogger.swift; sourceTree = "<group>"; };
+		CCE4048526451F4700797BB9 /* EpoxyCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EpoxyCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE4048926451F8300797BB9 /* EpoxyCookedInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpoxyCookedInterface.swift; sourceTree = "<group>"; };
+		CCE4049C2645230500797BB9 /* CollectionViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewConfiguration.swift; sourceTree = "<group>"; };
+		CCE4049D2645230500797BB9 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		CCE4049E2645230500797BB9 /* CollectionViewVisibilityMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewVisibilityMetadata.swift; sourceTree = "<group>"; };
+		CCE404A02645230500797BB9 /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		CCE404A12645230500797BB9 /* ReuseIDStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIDStore.swift; sourceTree = "<group>"; };
+		CCE404A22645230500797BB9 /* CollectionViewDataSourceReorderingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSourceReorderingDelegate.swift; sourceTree = "<group>"; };
+		CCE404A32645230500797BB9 /* CollectionViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewData.swift; sourceTree = "<group>"; };
+		CCE404A42645230500797BB9 /* CollectionViewChangeset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewChangeset.swift; sourceTree = "<group>"; };
+		CCE404A52645230500797BB9 /* CollectionViewScrollToItemHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewScrollToItemHelper.swift; sourceTree = "<group>"; };
+		CCE404A62645230500797BB9 /* ItemPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPath.swift; sourceTree = "<group>"; };
+		CCE404A82645230500797BB9 /* CollectionViewDisplayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDisplayDelegate.swift; sourceTree = "<group>"; };
+		CCE404A92645230500797BB9 /* CollectionViewAccessibilityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewAccessibilityDelegate.swift; sourceTree = "<group>"; };
+		CCE404AA2645230500797BB9 /* CollectionViewReorderingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewReorderingDelegate.swift; sourceTree = "<group>"; };
+		CCE404AB2645230500797BB9 /* CollectionViewTransitionLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTransitionLayoutDelegate.swift; sourceTree = "<group>"; };
+		CCE404AC2645230500797BB9 /* CollectionViewPrefetchingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPrefetchingDelegate.swift; sourceTree = "<group>"; };
+		CCE404AF2645230500797BB9 /* CollectionViewCellAccessibilityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellAccessibilityDelegate.swift; sourceTree = "<group>"; };
+		CCE404B02645230500797BB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CCE404B12645230500797BB9 /* CollectionViewReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewReusableView.swift; sourceTree = "<group>"; };
+		CCE404B22645230500797BB9 /* ItemSelectionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSelectionStyle.swift; sourceTree = "<group>"; };
+		CCE404B32645230500797BB9 /* ItemCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellView.swift; sourceTree = "<group>"; };
+		CCE404B42645230500797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FittingPrioritiesProvidingLayoutAttributes.swift; sourceTree = "<group>"; };
+		CCE404B72645230500797BB9 /* SectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		CCE404B82645230500797BB9 /* SectionModel+ReuseIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SectionModel+ReuseIDs.swift"; sourceTree = "<group>"; };
+		CCE404B92645230500797BB9 /* SectionModelBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModelBuilder.swift; sourceTree = "<group>"; };
+		CCE404BB2645230500797BB9 /* IsMoveableProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsMoveableProviding.swift; sourceTree = "<group>"; };
+		CCE404BC2645230500797BB9 /* ItemsProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsProviding.swift; sourceTree = "<group>"; };
+		CCE404BD2645230500797BB9 /* SupplementaryItemsProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryItemsProviding.swift; sourceTree = "<group>"; };
+		CCE404BE2645230500797BB9 /* DidChangeStateProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidChangeStateProviding.swift; sourceTree = "<group>"; };
+		CCE404BF2645230600797BB9 /* SelectionStyleProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionStyleProviding.swift; sourceTree = "<group>"; };
+		CCE404C12645230600797BB9 /* EpoxyableView+ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpoxyableView+ItemModel.swift"; sourceTree = "<group>"; };
+		CCE404C22645230600797BB9 /* AnyItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyItemModel.swift; sourceTree = "<group>"; };
+		CCE404C32645230600797BB9 /* ItemCellMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellMetadata.swift; sourceTree = "<group>"; };
+		CCE404C42645230600797BB9 /* ItemCellState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellState.swift; sourceTree = "<group>"; };
+		CCE404C52645230600797BB9 /* ItemModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModeling.swift; sourceTree = "<group>"; };
+		CCE404C62645230600797BB9 /* ItemModelBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModelBuilder.swift; sourceTree = "<group>"; };
+		CCE404C72645230600797BB9 /* ItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		CCE404C92645230600797BB9 /* AnySupplementaryItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySupplementaryItemModel.swift; sourceTree = "<group>"; };
+		CCE404CA2645230600797BB9 /* SupplementaryItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryItemModel.swift; sourceTree = "<group>"; };
+		CCE404CB2645230600797BB9 /* SupplementaryItemModeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementaryItemModeling.swift; sourceTree = "<group>"; };
+		CCE404CC2645230600797BB9 /* EpoxyableModel+SupplementaryItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpoxyableModel+SupplementaryItemModel.swift"; sourceTree = "<group>"; };
+		CCE404CE2645230600797BB9 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CCE404D12645230600797BB9 /* SectionModel+CompositionalLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SectionModel+CompositionalLayout.swift"; sourceTree = "<group>"; };
+		CCE404D22645230600797BB9 /* UICollectionViewCompositionalLayout+Epoxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCompositionalLayout+Epoxy.swift"; sourceTree = "<group>"; };
+		CCE404D42645230600797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionView+UICollectionViewFlowLayoutDelegate.swift"; sourceTree = "<group>"; };
+		CCE404D52645230600797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EpoxyModeled+UICollectionViewFlowLayout.swift"; sourceTree = "<group>"; };
+		CCE404D72645230600797BB9 /* AccessibilityCustomizedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityCustomizedView.swift; sourceTree = "<group>"; };
+		CCE404D82645230600797BB9 /* HighlightableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightableView.swift; sourceTree = "<group>"; };
+		CCE404D92645230600797BB9 /* DisplayRespondingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayRespondingView.swift; sourceTree = "<group>"; };
+		CCE404DA2645230600797BB9 /* EphemeralCachedStateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EphemeralCachedStateView.swift; sourceTree = "<group>"; };
+		CCE404DB2645230600797BB9 /* SelectableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableView.swift; sourceTree = "<group>"; };
 		E636CC7C3A00DD07B4081F93 /* Pods-EpoxyCooked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpoxyCooked.debug.xcconfig"; path = "Target Support Files/Pods-EpoxyCooked/Pods-EpoxyCooked.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				775E6F87E2FBEE2E24B9A279 /* Pods_EpoxyCooked.framework in Frameworks */,
+				CCE4048626451F4700797BB9 /* EpoxyCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +157,7 @@
 		1967817418221ABD57F03B23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCE4048526451F4700797BB9 /* EpoxyCore.framework */,
 				CCA0414D2DF407EFD40AC0AF /* Pods_EpoxyCooked.framework */,
 			);
 			name = Frameworks;
@@ -228,6 +197,7 @@
 				CCE402F12644EB9300797BB9 /* Classes */,
 				CCE402322644EAE800797BB9 /* EpoxyCooked.h */,
 				CCE402332644EAE800797BB9 /* Info.plist */,
+				CCE4048926451F8300797BB9 /* EpoxyCookedInterface.swift */,
 			);
 			path = EpoxyCooked;
 			sourceTree = "<group>";
@@ -235,9 +205,8 @@
 		CCE402F12644EB9300797BB9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CCE4049A2645230500797BB9 /* EpoxyCollectionView */,
 				CCE402F22644EB9300797BB9 /* Models */,
-				CCE402F42644EB9300797BB9 /* EpoxyCollectionView */,
-				CCE403312644EB9400797BB9 /* EpoxyCore */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -250,254 +219,181 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		CCE402F42644EB9300797BB9 /* EpoxyCollectionView */ = {
+		CCE4049A2645230500797BB9 /* EpoxyCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				CCE402F52644EB9300797BB9 /* CollectionView */,
-				CCE4030F2644EB9300797BB9 /* Models */,
-				CCE403252644EB9300797BB9 /* ViewControllers */,
-				CCE403272644EB9300797BB9 /* Layouts */,
-				CCE4032B2644EB9300797BB9 /* Views */,
+				CCE4049B2645230500797BB9 /* CollectionView */,
+				CCE404B52645230500797BB9 /* Models */,
+				CCE404CD2645230600797BB9 /* ViewControllers */,
+				CCE404CF2645230600797BB9 /* Layouts */,
+				CCE404D62645230600797BB9 /* Views */,
 			);
 			path = EpoxyCollectionView;
 			sourceTree = "<group>";
 		};
-		CCE402F52644EB9300797BB9 /* CollectionView */ = {
+		CCE4049B2645230500797BB9 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				CCE402F62644EB9300797BB9 /* CollectionViewConfiguration.swift */,
-				CCE402F72644EB9300797BB9 /* CollectionView.swift */,
-				CCE402F82644EB9300797BB9 /* CollectionViewVisibilityMetadata.swift */,
-				CCE402F92644EB9300797BB9 /* Internal */,
-				CCE403002644EB9300797BB9 /* ItemPath.swift */,
-				CCE403012644EB9300797BB9 /* Delegates */,
-				CCE403072644EB9300797BB9 /* ReusableViews */,
+				CCE4049C2645230500797BB9 /* CollectionViewConfiguration.swift */,
+				CCE4049D2645230500797BB9 /* CollectionView.swift */,
+				CCE4049E2645230500797BB9 /* CollectionViewVisibilityMetadata.swift */,
+				CCE4049F2645230500797BB9 /* Internal */,
+				CCE404A62645230500797BB9 /* ItemPath.swift */,
+				CCE404A72645230500797BB9 /* Delegates */,
+				CCE404AD2645230500797BB9 /* ReusableViews */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
-		CCE402F92644EB9300797BB9 /* Internal */ = {
+		CCE4049F2645230500797BB9 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				CCE402FA2644EB9300797BB9 /* CollectionViewDataSource.swift */,
-				CCE402FB2644EB9300797BB9 /* ReuseIDStore.swift */,
-				CCE402FC2644EB9300797BB9 /* CollectionViewDataSourceReorderingDelegate.swift */,
-				CCE402FD2644EB9300797BB9 /* CollectionViewData.swift */,
-				CCE402FE2644EB9300797BB9 /* CollectionViewChangeset.swift */,
-				CCE402FF2644EB9300797BB9 /* CollectionViewScrollToItemHelper.swift */,
+				CCE404A02645230500797BB9 /* CollectionViewDataSource.swift */,
+				CCE404A12645230500797BB9 /* ReuseIDStore.swift */,
+				CCE404A22645230500797BB9 /* CollectionViewDataSourceReorderingDelegate.swift */,
+				CCE404A32645230500797BB9 /* CollectionViewData.swift */,
+				CCE404A42645230500797BB9 /* CollectionViewChangeset.swift */,
+				CCE404A52645230500797BB9 /* CollectionViewScrollToItemHelper.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
 		};
-		CCE403012644EB9300797BB9 /* Delegates */ = {
+		CCE404A72645230500797BB9 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403022644EB9300797BB9 /* CollectionViewDisplayDelegate.swift */,
-				CCE403032644EB9300797BB9 /* CollectionViewAccessibilityDelegate.swift */,
-				CCE403042644EB9300797BB9 /* CollectionViewReorderingDelegate.swift */,
-				CCE403052644EB9300797BB9 /* CollectionViewTransitionLayoutDelegate.swift */,
-				CCE403062644EB9300797BB9 /* CollectionViewPrefetchingDelegate.swift */,
+				CCE404A82645230500797BB9 /* CollectionViewDisplayDelegate.swift */,
+				CCE404A92645230500797BB9 /* CollectionViewAccessibilityDelegate.swift */,
+				CCE404AA2645230500797BB9 /* CollectionViewReorderingDelegate.swift */,
+				CCE404AB2645230500797BB9 /* CollectionViewTransitionLayoutDelegate.swift */,
+				CCE404AC2645230500797BB9 /* CollectionViewPrefetchingDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		CCE403072644EB9300797BB9 /* ReusableViews */ = {
+		CCE404AD2645230500797BB9 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403082644EB9300797BB9 /* Internal */,
-				CCE4030A2644EB9300797BB9 /* CollectionViewCell.swift */,
-				CCE4030B2644EB9300797BB9 /* CollectionViewReusableView.swift */,
-				CCE4030C2644EB9300797BB9 /* ItemSelectionStyle.swift */,
-				CCE4030D2644EB9300797BB9 /* ItemCellView.swift */,
-				CCE4030E2644EB9300797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift */,
+				CCE404AE2645230500797BB9 /* Internal */,
+				CCE404B02645230500797BB9 /* CollectionViewCell.swift */,
+				CCE404B12645230500797BB9 /* CollectionViewReusableView.swift */,
+				CCE404B22645230500797BB9 /* ItemSelectionStyle.swift */,
+				CCE404B32645230500797BB9 /* ItemCellView.swift */,
+				CCE404B42645230500797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift */,
 			);
 			path = ReusableViews;
 			sourceTree = "<group>";
 		};
-		CCE403082644EB9300797BB9 /* Internal */ = {
+		CCE404AE2645230500797BB9 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403092644EB9300797BB9 /* CollectionViewCellAccessibilityDelegate.swift */,
+				CCE404AF2645230500797BB9 /* CollectionViewCellAccessibilityDelegate.swift */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
 		};
-		CCE4030F2644EB9300797BB9 /* Models */ = {
+		CCE404B52645230500797BB9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403102644EB9300797BB9 /* SectionModel */,
-				CCE403132644EB9300797BB9 /* Providers */,
-				CCE403192644EB9300797BB9 /* ItemModel */,
-				CCE403202644EB9300797BB9 /* SupplementaryItemModel */,
+				CCE404B62645230500797BB9 /* SectionModel */,
+				CCE404BA2645230500797BB9 /* Providers */,
+				CCE404C02645230600797BB9 /* ItemModel */,
+				CCE404C82645230600797BB9 /* SupplementaryItemModel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		CCE403102644EB9300797BB9 /* SectionModel */ = {
+		CCE404B62645230500797BB9 /* SectionModel */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403112644EB9300797BB9 /* SectionModel.swift */,
-				CCE403122644EB9300797BB9 /* SectionModel+ReuseIDs.swift */,
+				CCE404B72645230500797BB9 /* SectionModel.swift */,
+				CCE404B82645230500797BB9 /* SectionModel+ReuseIDs.swift */,
+				CCE404B92645230500797BB9 /* SectionModelBuilder.swift */,
 			);
 			path = SectionModel;
 			sourceTree = "<group>";
 		};
-		CCE403132644EB9300797BB9 /* Providers */ = {
+		CCE404BA2645230500797BB9 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403142644EB9300797BB9 /* IsMoveableProviding.swift */,
-				CCE403152644EB9300797BB9 /* ItemsProviding.swift */,
-				CCE403162644EB9300797BB9 /* SupplementaryItemsProviding.swift */,
-				CCE403172644EB9300797BB9 /* DidChangeStateProviding.swift */,
-				CCE403182644EB9300797BB9 /* SelectionStyleProviding.swift */,
+				CCE404BB2645230500797BB9 /* IsMoveableProviding.swift */,
+				CCE404BC2645230500797BB9 /* ItemsProviding.swift */,
+				CCE404BD2645230500797BB9 /* SupplementaryItemsProviding.swift */,
+				CCE404BE2645230500797BB9 /* DidChangeStateProviding.swift */,
+				CCE404BF2645230600797BB9 /* SelectionStyleProviding.swift */,
 			);
 			path = Providers;
 			sourceTree = "<group>";
 		};
-		CCE403192644EB9300797BB9 /* ItemModel */ = {
+		CCE404C02645230600797BB9 /* ItemModel */ = {
 			isa = PBXGroup;
 			children = (
-				CCE4031A2644EB9300797BB9 /* EpoxyableView+ItemModel.swift */,
-				CCE4031B2644EB9300797BB9 /* AnyItemModel.swift */,
-				CCE4031C2644EB9300797BB9 /* ItemCellMetadata.swift */,
-				CCE4031D2644EB9300797BB9 /* ItemCellState.swift */,
-				CCE4031E2644EB9300797BB9 /* ItemModeling.swift */,
-				CCE4031F2644EB9300797BB9 /* ItemModel.swift */,
+				CCE404C12645230600797BB9 /* EpoxyableView+ItemModel.swift */,
+				CCE404C22645230600797BB9 /* AnyItemModel.swift */,
+				CCE404C32645230600797BB9 /* ItemCellMetadata.swift */,
+				CCE404C42645230600797BB9 /* ItemCellState.swift */,
+				CCE404C52645230600797BB9 /* ItemModeling.swift */,
+				CCE404C62645230600797BB9 /* ItemModelBuilder.swift */,
+				CCE404C72645230600797BB9 /* ItemModel.swift */,
 			);
 			path = ItemModel;
 			sourceTree = "<group>";
 		};
-		CCE403202644EB9300797BB9 /* SupplementaryItemModel */ = {
+		CCE404C82645230600797BB9 /* SupplementaryItemModel */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403212644EB9300797BB9 /* AnySupplementaryItemModel.swift */,
-				CCE403222644EB9300797BB9 /* SupplementaryItemModel.swift */,
-				CCE403232644EB9300797BB9 /* SupplementaryItemModeling.swift */,
-				CCE403242644EB9300797BB9 /* EpoxyableModel+SupplementaryItemModel.swift */,
+				CCE404C92645230600797BB9 /* AnySupplementaryItemModel.swift */,
+				CCE404CA2645230600797BB9 /* SupplementaryItemModel.swift */,
+				CCE404CB2645230600797BB9 /* SupplementaryItemModeling.swift */,
+				CCE404CC2645230600797BB9 /* EpoxyableModel+SupplementaryItemModel.swift */,
 			);
 			path = SupplementaryItemModel;
 			sourceTree = "<group>";
 		};
-		CCE403252644EB9300797BB9 /* ViewControllers */ = {
+		CCE404CD2645230600797BB9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403262644EB9300797BB9 /* CollectionViewController.swift */,
+				CCE404CE2645230600797BB9 /* CollectionViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		CCE403272644EB9300797BB9 /* Layouts */ = {
+		CCE404CF2645230600797BB9 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403282644EB9300797BB9 /* FlowLayout */,
+				CCE404D02645230600797BB9 /* CompositionalLayout */,
+				CCE404D32645230600797BB9 /* FlowLayout */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
 		};
-		CCE403282644EB9300797BB9 /* FlowLayout */ = {
+		CCE404D02645230600797BB9 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
-				CCE403292644EB9300797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift */,
-				CCE4032A2644EB9300797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift */,
+				CCE404D12645230600797BB9 /* SectionModel+CompositionalLayout.swift */,
+				CCE404D22645230600797BB9 /* UICollectionViewCompositionalLayout+Epoxy.swift */,
+			);
+			path = CompositionalLayout;
+			sourceTree = "<group>";
+		};
+		CCE404D32645230600797BB9 /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CCE404D42645230600797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift */,
+				CCE404D52645230600797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift */,
 			);
 			path = FlowLayout;
 			sourceTree = "<group>";
 		};
-		CCE4032B2644EB9300797BB9 /* Views */ = {
+		CCE404D62645230600797BB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CCE4032C2644EB9300797BB9 /* AccessibilityCustomizedView.swift */,
-				CCE4032D2644EB9300797BB9 /* HighlightableView.swift */,
-				CCE4032E2644EB9300797BB9 /* DisplayRespondingView.swift */,
-				CCE4032F2644EB9300797BB9 /* EphemeralCachedStateView.swift */,
-				CCE403302644EB9400797BB9 /* SelectableView.swift */,
+				CCE404D72645230600797BB9 /* AccessibilityCustomizedView.swift */,
+				CCE404D82645230600797BB9 /* HighlightableView.swift */,
+				CCE404D92645230600797BB9 /* DisplayRespondingView.swift */,
+				CCE404DA2645230600797BB9 /* EphemeralCachedStateView.swift */,
+				CCE404DB2645230600797BB9 /* SelectableView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		CCE403312644EB9400797BB9 /* EpoxyCore */ = {
-			isa = PBXGroup;
-			children = (
-				CCE403322644EB9400797BB9 /* Diffing */,
-				CCE403382644EB9400797BB9 /* Model */,
-				CCE4034F2644EB9400797BB9 /* Views */,
-				CCE403542644EB9400797BB9 /* Logging */,
-			);
-			path = EpoxyCore;
-			sourceTree = "<group>";
-		};
-		CCE403322644EB9400797BB9 /* Diffing */ = {
-			isa = PBXGroup;
-			children = (
-				CCE403332644EB9400797BB9 /* IndexChangeset.swift */,
-				CCE403342644EB9400797BB9 /* SectionedChangeset.swift */,
-				CCE403352644EB9400797BB9 /* Collection+Diff.swift */,
-				CCE403362644EB9400797BB9 /* DiffableSection.swift */,
-				CCE403372644EB9400797BB9 /* Diffable.swift */,
-			);
-			path = Diffing;
-			sourceTree = "<group>";
-		};
-		CCE403382644EB9400797BB9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CCE403392644EB9400797BB9 /* EpoxyModelStorage.swift */,
-				CCE4033A2644EB9400797BB9 /* CallbackContextEpoxyModeled.swift */,
-				CCE4033B2644EB9400797BB9 /* Providers */,
-				CCE4034A2644EB9400797BB9 /* ViewEpoxyModeled.swift */,
-				CCE4034B2644EB9400797BB9 /* Internal */,
-				CCE4034D2644EB9400797BB9 /* EpoxyModelProperty.swift */,
-				CCE4034E2644EB9400797BB9 /* EpoxyModeled.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CCE4033B2644EB9400797BB9 /* Providers */ = {
-			isa = PBXGroup;
-			children = (
-				CCE4033C2644EB9400797BB9 /* ViewDifferentiatorProviding.swift */,
-				CCE4033D2644EB9400797BB9 /* SetContentProviding.swift */,
-				CCE4033E2644EB9400797BB9 /* DidSelectProviding.swift */,
-				CCE4033F2644EB9400797BB9 /* DidEndDisplayingProviding.swift */,
-				CCE403402644EB9400797BB9 /* WillDisplayProviding.swift */,
-				CCE403412644EB9400797BB9 /* ErasedContentProviding.swift */,
-				CCE403422644EB9400797BB9 /* MakeViewProviding.swift */,
-				CCE403432644EB9400797BB9 /* TraitCollectionProviding.swift */,
-				CCE403442644EB9400797BB9 /* ViewProviding.swift */,
-				CCE403452644EB9400797BB9 /* SetBehaviorsProviding.swift */,
-				CCE403462644EB9400797BB9 /* StyleIDProviding.swift */,
-				CCE403472644EB9400797BB9 /* DidDisplayProviding.swift */,
-				CCE403482644EB9400797BB9 /* AnimatedProviding.swift */,
-				CCE403492644EB9400797BB9 /* DataIDProviding.swift */,
-			);
-			path = Providers;
-			sourceTree = "<group>";
-		};
-		CCE4034B2644EB9400797BB9 /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				CCE4034C2644EB9400797BB9 /* AnyEpoxyModelProperty.swift */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
-		CCE4034F2644EB9400797BB9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CCE403502644EB9400797BB9 /* StyledView.swift */,
-				CCE403512644EB9400797BB9 /* ContentConfigurableView.swift */,
-				CCE403522644EB9400797BB9 /* EpoxyableView.swift */,
-				CCE403532644EB9400797BB9 /* BehaviorsConfigurableView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		CCE403542644EB9400797BB9 /* Logging */ = {
-			isa = PBXGroup;
-			children = (
-				CCE403552644EB9400797BB9 /* EpoxyLogger.swift */,
-			);
-			path = Logging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,6 +419,7 @@
 				CCE4022B2644EAE800797BB9 /* Sources */,
 				CCE4022C2644EAE800797BB9 /* Frameworks */,
 				CCE4022D2644EAE800797BB9 /* Resources */,
+				CCE4048826451F4700797BB9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -604,83 +501,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCE4036A2644EB9400797BB9 /* ItemCellView.swift in Sources */,
-				CCE4038C2644EB9400797BB9 /* ViewDifferentiatorProviding.swift in Sources */,
-				CCE4038F2644EB9400797BB9 /* DidEndDisplayingProviding.swift in Sources */,
-				CCE403752644EB9400797BB9 /* ItemCellMetadata.swift in Sources */,
-				CCE4037E2644EB9400797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift in Sources */,
-				CCE403622644EB9400797BB9 /* CollectionViewAccessibilityDelegate.swift in Sources */,
-				CCE403712644EB9400797BB9 /* DidChangeStateProviding.swift in Sources */,
-				CCE4039C2644EB9400797BB9 /* EpoxyModelProperty.swift in Sources */,
-				CCE403972644EB9400797BB9 /* DidDisplayProviding.swift in Sources */,
-				CCE403822644EB9400797BB9 /* DisplayRespondingView.swift in Sources */,
-				CCE4037D2644EB9400797BB9 /* CollectionViewController.swift in Sources */,
-				CCE4035A2644EB9400797BB9 /* CollectionViewDataSource.swift in Sources */,
-				CCE4037B2644EB9400797BB9 /* SupplementaryItemModeling.swift in Sources */,
-				CCE403782644EB9400797BB9 /* ItemModel.swift in Sources */,
-				CCE4036D2644EB9400797BB9 /* SectionModel+ReuseIDs.swift in Sources */,
-				CCE403742644EB9400797BB9 /* AnyItemModel.swift in Sources */,
-				CCE403832644EB9400797BB9 /* EphemeralCachedStateView.swift in Sources */,
-				CCE403672644EB9400797BB9 /* CollectionViewCell.swift in Sources */,
-				CCE4036F2644EB9400797BB9 /* ItemsProviding.swift in Sources */,
-				CCE403582644EB9400797BB9 /* CollectionView.swift in Sources */,
-				CCE403652644EB9400797BB9 /* CollectionViewPrefetchingDelegate.swift in Sources */,
-				CCE403732644EB9400797BB9 /* EpoxyableView+ItemModel.swift in Sources */,
-				CCE403992644EB9400797BB9 /* DataIDProviding.swift in Sources */,
-				CCE403842644EB9400797BB9 /* SelectableView.swift in Sources */,
-				CCE403592644EB9400797BB9 /* CollectionViewVisibilityMetadata.swift in Sources */,
-				CCE4037A2644EB9400797BB9 /* SupplementaryItemModel.swift in Sources */,
-				CCE403802644EB9400797BB9 /* AccessibilityCustomizedView.swift in Sources */,
-				CCE4036B2644EB9400797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift in Sources */,
-				CCE4039D2644EB9400797BB9 /* EpoxyModeled.swift in Sources */,
-				CCE4038B2644EB9400797BB9 /* CallbackContextEpoxyModeled.swift in Sources */,
-				CCE4035B2644EB9400797BB9 /* ReuseIDStore.swift in Sources */,
-				CCE4039F2644EB9400797BB9 /* ContentConfigurableView.swift in Sources */,
-				CCE403872644EB9400797BB9 /* Collection+Diff.swift in Sources */,
-				CCE403912644EB9400797BB9 /* ErasedContentProviding.swift in Sources */,
-				CCE4038E2644EB9400797BB9 /* DidSelectProviding.swift in Sources */,
-				CCE403642644EB9400797BB9 /* CollectionViewTransitionLayoutDelegate.swift in Sources */,
-				CCE4039A2644EB9400797BB9 /* ViewEpoxyModeled.swift in Sources */,
-				CCE403852644EB9400797BB9 /* IndexChangeset.swift in Sources */,
-				CCE403A02644EB9400797BB9 /* EpoxyableView.swift in Sources */,
-				CCE4035D2644EB9400797BB9 /* CollectionViewData.swift in Sources */,
-				CCE4035E2644EB9400797BB9 /* CollectionViewChangeset.swift in Sources */,
-				CCE4036C2644EB9400797BB9 /* SectionModel.swift in Sources */,
-				CCE403A22644EB9400797BB9 /* EpoxyLogger.swift in Sources */,
-				CCE403722644EB9400797BB9 /* SelectionStyleProviding.swift in Sources */,
-				CCE403762644EB9400797BB9 /* ItemCellState.swift in Sources */,
+				CCE404E42645230600797BB9 /* CollectionViewScrollToItemHelper.swift in Sources */,
+				CCE404DC2645230600797BB9 /* CollectionViewConfiguration.swift in Sources */,
+				CCE405082645230600797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift in Sources */,
+				CCE405002645230600797BB9 /* AnySupplementaryItemModel.swift in Sources */,
+				CCE404FF2645230600797BB9 /* ItemModel.swift in Sources */,
+				CCE404F72645230600797BB9 /* DidChangeStateProviding.swift in Sources */,
+				CCE404EA2645230600797BB9 /* CollectionViewPrefetchingDelegate.swift in Sources */,
+				CCE405072645230600797BB9 /* CollectionView+UICollectionViewFlowLayoutDelegate.swift in Sources */,
+				CCE4050C2645230600797BB9 /* EphemeralCachedStateView.swift in Sources */,
+				CCE4050A2645230600797BB9 /* HighlightableView.swift in Sources */,
+				CCE404E92645230600797BB9 /* CollectionViewTransitionLayoutDelegate.swift in Sources */,
+				CCE404ED2645230600797BB9 /* CollectionViewReusableView.swift in Sources */,
+				CCE405032645230600797BB9 /* EpoxyableModel+SupplementaryItemModel.swift in Sources */,
+				CCE404E12645230600797BB9 /* CollectionViewDataSourceReorderingDelegate.swift in Sources */,
+				CCE404F92645230600797BB9 /* EpoxyableView+ItemModel.swift in Sources */,
+				CCE404E62645230600797BB9 /* CollectionViewDisplayDelegate.swift in Sources */,
+				CCE404E72645230600797BB9 /* CollectionViewAccessibilityDelegate.swift in Sources */,
+				CCE404DF2645230600797BB9 /* CollectionViewDataSource.swift in Sources */,
+				CCE404FB2645230600797BB9 /* ItemCellMetadata.swift in Sources */,
+				CCE404E32645230600797BB9 /* CollectionViewChangeset.swift in Sources */,
 				CCE403562644EB9400797BB9 /* BaseItemModel.swift in Sources */,
-				CCE4039E2644EB9400797BB9 /* StyledView.swift in Sources */,
-				CCE403922644EB9400797BB9 /* MakeViewProviding.swift in Sources */,
-				CCE4037F2644EB9400797BB9 /* EpoxyModeled+UICollectionViewFlowLayout.swift in Sources */,
-				CCE403792644EB9400797BB9 /* AnySupplementaryItemModel.swift in Sources */,
-				CCE4038D2644EB9400797BB9 /* SetContentProviding.swift in Sources */,
-				CCE4039B2644EB9400797BB9 /* AnyEpoxyModelProperty.swift in Sources */,
-				CCE4035F2644EB9400797BB9 /* CollectionViewScrollToItemHelper.swift in Sources */,
-				CCE403602644EB9400797BB9 /* ItemPath.swift in Sources */,
-				CCE403692644EB9400797BB9 /* ItemSelectionStyle.swift in Sources */,
-				CCE403932644EB9400797BB9 /* TraitCollectionProviding.swift in Sources */,
-				CCE403772644EB9400797BB9 /* ItemModeling.swift in Sources */,
-				CCE403862644EB9400797BB9 /* SectionedChangeset.swift in Sources */,
-				CCE403702644EB9400797BB9 /* SupplementaryItemsProviding.swift in Sources */,
-				CCE403902644EB9400797BB9 /* WillDisplayProviding.swift in Sources */,
-				CCE4035C2644EB9400797BB9 /* CollectionViewDataSourceReorderingDelegate.swift in Sources */,
-				CCE403982644EB9400797BB9 /* AnimatedProviding.swift in Sources */,
-				CCE403A12644EB9400797BB9 /* BehaviorsConfigurableView.swift in Sources */,
-				CCE403892644EB9400797BB9 /* Diffable.swift in Sources */,
-				CCE403612644EB9400797BB9 /* CollectionViewDisplayDelegate.swift in Sources */,
-				CCE403662644EB9400797BB9 /* CollectionViewCellAccessibilityDelegate.swift in Sources */,
-				CCE403682644EB9400797BB9 /* CollectionViewReusableView.swift in Sources */,
-				CCE403952644EB9400797BB9 /* SetBehaviorsProviding.swift in Sources */,
-				CCE4036E2644EB9400797BB9 /* IsMoveableProviding.swift in Sources */,
-				CCE4038A2644EB9400797BB9 /* EpoxyModelStorage.swift in Sources */,
-				CCE403632644EB9400797BB9 /* CollectionViewReorderingDelegate.swift in Sources */,
-				CCE403962644EB9400797BB9 /* StyleIDProviding.swift in Sources */,
-				CCE403942644EB9400797BB9 /* ViewProviding.swift in Sources */,
-				CCE403812644EB9400797BB9 /* HighlightableView.swift in Sources */,
-				CCE403882644EB9400797BB9 /* DiffableSection.swift in Sources */,
-				CCE403572644EB9400797BB9 /* CollectionViewConfiguration.swift in Sources */,
-				CCE4037C2644EB9400797BB9 /* EpoxyableModel+SupplementaryItemModel.swift in Sources */,
+				CCE404F12645230600797BB9 /* SectionModel.swift in Sources */,
+				CCE404F62645230600797BB9 /* SupplementaryItemsProviding.swift in Sources */,
+				CCE404EC2645230600797BB9 /* CollectionViewCell.swift in Sources */,
+				CCE404E02645230600797BB9 /* ReuseIDStore.swift in Sources */,
+				CCE404DE2645230600797BB9 /* CollectionViewVisibilityMetadata.swift in Sources */,
+				CCE405042645230600797BB9 /* CollectionViewController.swift in Sources */,
+				CCE404F52645230600797BB9 /* ItemsProviding.swift in Sources */,
+				CCE404FE2645230600797BB9 /* ItemModelBuilder.swift in Sources */,
+				CCE404FC2645230600797BB9 /* ItemCellState.swift in Sources */,
+				CCE404F32645230600797BB9 /* SectionModelBuilder.swift in Sources */,
+				CCE405062645230600797BB9 /* UICollectionViewCompositionalLayout+Epoxy.swift in Sources */,
+				CCE404FA2645230600797BB9 /* AnyItemModel.swift in Sources */,
+				CCE404E82645230600797BB9 /* CollectionViewReorderingDelegate.swift in Sources */,
+				CCE4050D2645230600797BB9 /* SelectableView.swift in Sources */,
+				CCE404F42645230600797BB9 /* IsMoveableProviding.swift in Sources */,
+				CCE404F82645230600797BB9 /* SelectionStyleProviding.swift in Sources */,
+				CCE405092645230600797BB9 /* AccessibilityCustomizedView.swift in Sources */,
+				CCE404EE2645230600797BB9 /* ItemSelectionStyle.swift in Sources */,
+				CCE404DD2645230600797BB9 /* CollectionView.swift in Sources */,
+				CCE404E52645230600797BB9 /* ItemPath.swift in Sources */,
+				CCE405012645230600797BB9 /* SupplementaryItemModel.swift in Sources */,
+				CCE4050B2645230600797BB9 /* DisplayRespondingView.swift in Sources */,
+				CCE404F22645230600797BB9 /* SectionModel+ReuseIDs.swift in Sources */,
+				CCE4048A26451F8300797BB9 /* EpoxyCookedInterface.swift in Sources */,
+				CCE404EB2645230600797BB9 /* CollectionViewCellAccessibilityDelegate.swift in Sources */,
+				CCE404E22645230600797BB9 /* CollectionViewData.swift in Sources */,
+				CCE405022645230600797BB9 /* SupplementaryItemModeling.swift in Sources */,
+				CCE404F02645230600797BB9 /* FittingPrioritiesProvidingLayoutAttributes.swift in Sources */,
+				CCE405052645230600797BB9 /* SectionModel+CompositionalLayout.swift in Sources */,
+				CCE404EF2645230600797BB9 /* ItemCellView.swift in Sources */,
+				CCE404FD2645230600797BB9 /* ItemModeling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

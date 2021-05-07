@@ -54,6 +54,7 @@ post_install do |installer|
 end
 
 def epoxyCookedPod
+  pod 'EpoxyCore'
 end
 
 def epoxyExamplePod

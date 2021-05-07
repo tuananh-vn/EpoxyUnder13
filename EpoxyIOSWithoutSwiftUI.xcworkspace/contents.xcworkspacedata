@@ -8,6 +8,9 @@
       location = "group:EpoxyCooked/EpoxyCooked.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:EpoxyCore/EpoxyCore.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

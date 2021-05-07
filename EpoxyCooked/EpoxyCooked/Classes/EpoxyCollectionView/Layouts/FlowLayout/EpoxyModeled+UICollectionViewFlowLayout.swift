@@ -1,7 +1,7 @@
 // Created by Tyler Hedrick on 1/20/21.
 // Copyright © 2021 Airbnb Inc. All rights reserved.
 
-
+import EpoxyCore
 import UIKit
 
 // MARK: - UICollectionViewFlowLayoutItemSizeProvider

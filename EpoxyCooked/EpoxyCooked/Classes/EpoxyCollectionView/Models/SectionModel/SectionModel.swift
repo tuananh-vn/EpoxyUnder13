@@ -1,7 +1,7 @@
 //  Created by Laura Skelton on 5/11/17.
 //  Copyright © 2017 Airbnb. All rights reserved.
 
-
+import EpoxyCore
 import Foundation
 
 // MARK: - SectionModel
@@ -16,6 +16,10 @@ public struct SectionModel: EpoxyModeled {
       self.dataID = dataID
     }
     self.items = items
+  }
+
+  public init(dataID: AnyHashable? = nil, @ItemModelBuilder items: () -> [ItemModeling]) {
+    self.init(dataID: dataID, items: items())
   }
 
   // MARK: Public

@@ -1,7 +1,7 @@
 // Created by eric_horacek on 12/14/20.
 // Copyright © 2020 Airbnb Inc. All rights reserved.
 
-
+import EpoxyCore
 
 // MARK: - CollectionViewChangeset
 

@@ -1,7 +1,7 @@
 //  Created by Laura Skelton on 9/6/17.
 //  Copyright © 2017 Airbnb. All rights reserved.
 
-
+import EpoxyCore
 
 // MARK: Extensions
 

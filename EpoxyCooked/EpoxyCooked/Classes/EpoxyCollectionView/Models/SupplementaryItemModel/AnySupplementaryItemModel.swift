@@ -1,7 +1,7 @@
 // Created by eric_horacek on 12/14/20.
 // Copyright © 2020 Airbnb Inc. All rights reserved.
 
-
+import EpoxyCore
 import UIKit
 
 // MARK: - AnySupplementaryItemModel
@@ -47,6 +47,18 @@ extension AnySupplementaryItemModel: WillDisplayProviding {}
 
 extension AnySupplementaryItemModel: DidEndDisplayingProviding {}
 
+// MARK: SetContentProviding
+
+extension AnySupplementaryItemModel: SetContentProviding {}
+
+// MARK: SetBehaviorsProviding
+
+extension AnySupplementaryItemModel: SetBehaviorsProviding {}
+
+// MARK: StyleIDProviding
+
+extension AnySupplementaryItemModel: StyleIDProviding {}
+
 // MARK: SupplementaryItemModeling
 
 extension AnySupplementaryItemModel: SupplementaryItemModeling {
@@ -75,6 +87,9 @@ extension AnySupplementaryItemModel: InternalSupplementaryItemModeling {
     animated: Bool)
   {
     model.configure(reusableView: reusableView, traitCollection: traitCollection, animated: animated)
+    if let view = reusableView.view {
+      setContent?(.init(view: view, traitCollection: traitCollection, animated: animated))
+    }
   }
 
   func handleWillDisplay(
@@ -105,6 +120,9 @@ extension AnySupplementaryItemModel: InternalSupplementaryItemModeling {
     animated: Bool)
   {
     model.setBehavior(reusableView: reusableView, traitCollection: traitCollection, animated: animated)
+    if let view = reusableView.view {
+      setBehaviors?(.init(view: view, traitCollection: traitCollection, animated: animated))
+    }
   }
 }
 

@@ -1,6 +1,7 @@
 // Created by Bryan Keller on 10/20/20.
 // Copyright © 2020 Airbnb Inc. All rights reserved.
 
+import EpoxyCore
 import UIKit
 
 // MARK: - CollectionViewScrollToItemHelper
@@ -252,8 +253,7 @@ final class CollectionViewScrollToItemHelper {
   }
 
   private func scrollAxis(for collectionView: UICollectionView) -> ScrollAxis? {
-    var availableWidth : CGFloat = 0.0
-    var availableHeight : CGFloat = 0.0
+    var availableWidth: CGFloat
     if #available(iOS 11.0, *) {
         availableWidth = collectionView.bounds.width -
             collectionView.adjustedContentInset.left -
@@ -264,15 +264,16 @@ final class CollectionViewScrollToItemHelper {
             collectionView.contentInset.left -
             collectionView.contentInset.right
     }
+    var availableHeight: CGFloat
     if #available(iOS 11.0, *) {
         availableHeight = collectionView.bounds.height -
-            collectionView.adjustedContentInset.top -
-            collectionView.adjustedContentInset.bottom
+          collectionView.adjustedContentInset.top -
+          collectionView.adjustedContentInset.bottom
     } else {
-        // Fallback on earlier versions
+        
         availableHeight = collectionView.bounds.height -
-            collectionView.contentInset.top -
-            collectionView.contentInset.bottom
+          collectionView.contentInset.top -
+          collectionView.contentInset.bottom
     }
     let scrollsHorizontally = collectionView.contentSize.width > availableWidth
     let scrollsVertically = collectionView.contentSize.height > availableHeight

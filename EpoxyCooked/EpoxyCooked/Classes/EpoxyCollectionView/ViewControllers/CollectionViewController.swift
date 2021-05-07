@@ -20,6 +20,34 @@ open class CollectionViewController: UIViewController {
     super.init(nibName: nil, bundle: nil)
   }
 
+  /// Initializes a collection view controller and configures its collection view with the provided
+  /// layout and a single section containing the given items once the view loads.
+  ///
+  /// The `SectionModel` containing the items has a data ID of `DefaultDataID.noneProvided`.
+  public convenience init(layout: UICollectionViewLayout, items: [ItemModeling]) {
+    self.init(layout: layout, sections: [SectionModel(items: items)])
+  }
+
+  /// Initializes a collection view controller and configures its collection view with the provided
+  /// layout and sections once the view loads.
+  public convenience init(
+    layout: UICollectionViewLayout,
+    @SectionModelBuilder sections: () -> [SectionModel])
+  {
+    self.init(layout: layout, sections: sections())
+  }
+
+  /// Initializes a collection view controller and configures its collection view with the provided
+  /// layout and a single section containing the given items once the view loads.
+  ///
+  /// The `SectionModel` containing the items has a data ID of `DefaultDataID.noneProvided`.
+  public convenience init(
+    layout: UICollectionViewLayout,
+    @ItemModelBuilder items: () -> [ItemModeling])
+  {
+    self.init(layout: layout, items: items())
+  }
+
   @available(*, unavailable)
   public required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
@@ -29,7 +57,12 @@ open class CollectionViewController: UIViewController {
 
   open override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = .black
+    if #available(iOS 13.0, *) {
+        view.backgroundColor = .systemBackground
+    } else {
+        // Fallback on earlier versions
+        view.backgroundColor = .white
+    }
     loadCollectionView()
   }
 
@@ -71,6 +104,17 @@ open class CollectionViewController: UIViewController {
       return
     }
     collectionView.setSections(sections, animated: animated)
+  }
+
+  /// Updates the sections of the `collectionView` to a single section with the provided `items`,
+  /// optionally animating the differences from the current sections.
+  ///
+  /// If `collectionView` has not yet been loaded, the section containing `items` is stored until
+  /// the view loads and set on `collectionView` non-animatedly at that point.
+  ///
+  /// The `SectionModel` containing the items has a data ID of `DefaultDataID.noneProvided`.
+  public func setItems(_ items: [ItemModeling], animated: Bool) {
+    setSections([SectionModel(items: items)], animated: animated)
   }
 
   // MARK: Private

@@ -1,7 +1,7 @@
 // Created by Tyler Hedrick on 5/13/19.
 // Copyright © 2019 Airbnb Inc. All rights reserved.
 
-
+import EpoxyCore
 import UIKit
 
 // MARK: - AnyItemModel
@@ -45,6 +45,22 @@ extension AnyItemModel: DidEndDisplayingProviding {}
 
 extension AnyItemModel: DidSelectProviding {}
 
+// MARK: SetContentProviding
+
+extension AnyItemModel: SetContentProviding {}
+
+// MARK: DidChangeStateProviding
+
+extension AnyItemModel: DidChangeStateProviding {}
+
+// MARK: SetBehaviorsProviding
+
+extension AnyItemModel: SetBehaviorsProviding {}
+
+// MARK: StyleIDProviding
+
+extension AnyItemModel: StyleIDProviding {}
+
 // MARK: ItemModeling
 
 extension AnyItemModel: ItemModeling {
@@ -68,14 +84,23 @@ extension AnyItemModel: InternalItemModeling {
 
   public func configure(cell: ItemWrapperView, with metadata: ItemCellMetadata) {
     model.configure(cell: cell, with: metadata)
+    if let view = cell.view {
+      setContent?(.init(view: view, metadata: metadata))
+    }
   }
 
   public func setBehavior(cell: ItemWrapperView, with metadata: ItemCellMetadata) {
     model.setBehavior(cell: cell, with: metadata)
+    if let view = cell.view {
+      setBehaviors?(.init(view: view, metadata: metadata))
+    }
   }
 
   public func configureStateChange(in cell: ItemWrapperView, with metadata: ItemCellMetadata) {
     model.configureStateChange(in: cell, with: metadata)
+    if let view = cell.view {
+      didChangeState?(.init(view: view, metadata: metadata))
+    }
   }
 
   public func handleDidSelect(_ cell: ItemWrapperView, with metadata: ItemCellMetadata) {

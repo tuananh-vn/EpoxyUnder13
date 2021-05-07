@@ -1,7 +1,7 @@
 //  Created by Laura Skelton on 3/14/17.
 //  Copyright © 2017 Airbnb. All rights reserved.
 
-
+import EpoxyCore
 import UIKit
 
 // MARK: - ItemModel

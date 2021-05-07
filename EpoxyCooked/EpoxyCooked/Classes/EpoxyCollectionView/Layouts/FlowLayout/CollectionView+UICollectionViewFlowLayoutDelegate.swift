@@ -1,7 +1,7 @@
 //  Created by Laura Skelton on 7/13/17.
 //  Copyright © 2017 Airbnb. All rights reserved.
 
-
+import EpoxyCore
 import UIKit
 
 // MARK: - EpoxyCollectionViewDelegateFlowLayout
